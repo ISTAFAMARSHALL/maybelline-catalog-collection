@@ -1,8 +1,15 @@
 import React from 'react'
+import MakeupCards from './MakeupCards'
+import Search from './Search'
+import Sort from './Sort'
 
 function MakeUpComponentContainer() {
   return (
-    <div>MakeUpComponentContainer</div>
+    <div>
+        MakeUpComponentContainer
+        <> {Sort} {Search} </>
+        <MakeupCards />
+    </div>
   )
 }
 
