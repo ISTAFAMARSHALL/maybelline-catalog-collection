@@ -7,7 +7,7 @@ function MakeUpComponentContainer() {
   return (
     <div>
         MakeUpComponentContainer
-        <> {Sort} {Search} </>
+       <> <Sort /> <Search /> </>
         <MakeupCards />
     </div>
   )
