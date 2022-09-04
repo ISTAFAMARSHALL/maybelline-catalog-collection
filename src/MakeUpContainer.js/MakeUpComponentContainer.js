@@ -22,7 +22,6 @@ function MakeUpComponentContainer() {
   })
 
   const productCards = filteredCards.map((item) => {
-    console.log(item.product_type)
     return (
       <MakeupCards key={item.id} item={item}  />
 

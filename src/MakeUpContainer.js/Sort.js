@@ -3,9 +3,9 @@ import React from 'react'
 
 function Sort() {
   return (
-    <div>Sort
-              <select >
-        <option value="">All</option>
+    <div> Sort:
+          <select onChange={(e) => console.log(e.target.value)}>
+          <option value="">All</option>
           <option value="bronzer">Bronzer</option>
           <option value="blush">Blush</option>
           <option value="lip_liner">Lip Liner</option>
