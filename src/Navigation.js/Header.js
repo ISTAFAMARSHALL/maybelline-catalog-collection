@@ -1,10 +1,16 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 
 function Header() {
+
+  const style = {
+    padding: "3em"
+  }
+
   return (
-      <div>
-        <h1>Maybelline Catalog Collection</h1>
-      </div>
+        <NavLink style={style} exact to="/">
+            <h1>Maybelline Catalog Collection</h1>
+        </NavLink>
   )
 }
 
