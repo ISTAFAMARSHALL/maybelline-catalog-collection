@@ -7,6 +7,16 @@ function Form() {
   const [price, setPrice] = useState("")
   const [image, setImage] = useState("")
 
+  const newProduct ={
+    name:name,
+    description:description,
+    price:price,
+    image:image
+  }
+
+  console.log(newProduct)
+
+
   return (
     <div>
       <h2>Enter New Product Here</h2>
