@@ -1883,58 +1883,6 @@
           "colour_name": "Very Black "
         }
       ]
-    },
-    {
-      "brand": "maybelline",
-      "name": "test",
-      "price": "test",
-      "price_sign": "",
-      "currency": "",
-      "image_link": "test",
-      "product_link": "",
-      "website_link": "",
-      "description": "test",
-      "rating": "",
-      "category": "",
-      "product_type": "",
-      "tag_list": [],
-      "created_at": "",
-      "updated_at": "",
-      "product_api_url": "",
-      "api_featured_image": "",
-      "product_colors": [
-        {
-          "hex_value": "",
-          "colour_name": ""
-        }
-      ],
-      "id": 496
-    },
-    {
-      "brand": "maybelline",
-      "name": "test",
-      "price": "test",
-      "price_sign": "",
-      "currency": "",
-      "image_link": "test",
-      "product_link": "",
-      "website_link": "",
-      "description": "test",
-      "rating": "",
-      "category": "",
-      "product_type": "",
-      "tag_list": [],
-      "created_at": "",
-      "updated_at": "",
-      "product_api_url": "",
-      "api_featured_image": "",
-      "product_colors": [
-        {
-          "hex_value": "",
-          "colour_name": ""
-        }
-      ],
-      "id": 497
     }
   ]
 }
