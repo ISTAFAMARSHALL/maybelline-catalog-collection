@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
+import {useHistory} from 'react-router-dom'
 
 function Form() {
   
+  const history = useHistory()
   const [name, setName] = useState("")
   const [description, setDescription] = useState("")
   const [price, setPrice] = useState("")
@@ -42,6 +44,12 @@ function Form() {
       },
       body: JSON.stringify(newProduct) 
     })
+    setName("")
+    setDescription("")
+    setPrice("")
+    setImage("")
+    setProduct_type("")
+    history.push("/products")
   }
   
 
