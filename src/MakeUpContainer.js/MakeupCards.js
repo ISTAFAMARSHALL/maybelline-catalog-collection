@@ -2,9 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-function MakeupCards({item}) {  
-
-  console.log(item)
+function MakeupCards({item}) {
 
   return (
       
