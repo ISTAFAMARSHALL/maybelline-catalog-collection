@@ -1,17 +1,20 @@
 import React from 'react'
 
 function Footer() {
+
+  const style = {
+      position: "absolute",
+      bottom: "0",
+      width: "100%",
+      height: "2.5rem",
+      display: "flex"
+  }
+
   return (
-    <div className='row'style={{ display: "flex", height: "50px", marginBottom: "-50px" }}>
-      <div className='col-6' style={{ width:"50%" , float: "left" }} >
-        <footer>Istafa Marshall</footer>
-         </div  >
-         <div className='col-6'style={{ width:"50%" , float: "right" }} >
-         <footer>Maybelline Catalog Collection</footer>
-         </div>
-      
-      
-      </div>
+    <div style={style}>
+      <div style={{ width: "50%", float: "left"  }}>  Istafa Marshall  </div>
+      <div style={{ width: "50%", float: "right"  }}>  Maybelline Catalog Collection  </div>
+    </div>
   )
 }
 

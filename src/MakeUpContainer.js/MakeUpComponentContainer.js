@@ -5,11 +5,14 @@ import Sort from './Sort'
 
 function MakeUpComponentContainer() {
   return (
-    <div>
-        MakeUpComponentContainer
-       <> <Sort /> <Search /> </>
-        <MakeupCards />
-    </div>
+      <div>
+        
+       <h1 style={{display: "flex"}}><Search /><Sort /> </h1>
+       <div>
+       <h2>Product List</h2>
+       <MakeupCards />
+       </div>
+      </div>
   )
 }
 
