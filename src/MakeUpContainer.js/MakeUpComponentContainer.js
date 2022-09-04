@@ -14,7 +14,8 @@ function MakeUpComponentContainer() {
     fetch("http://localhost:3001/products")
     .then(r => r.json())
     .then((data) => setproducts(data))
-  }, []) 
+    .catch((error) => alert(error))
+  } , []) 
 
   const sortCards = products.filter((item) => {
     if (sort === "" )
@@ -23,8 +24,6 @@ function MakeUpComponentContainer() {
     return item.product_type === sort
 
   })
-
-  console.log(sortCards)
 
   const filteredCards = sortCards.filter((item) => {
     if (search === "") {
