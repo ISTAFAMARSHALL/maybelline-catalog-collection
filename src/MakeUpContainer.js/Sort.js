@@ -9,11 +9,12 @@ function Sort() {
           <option value="bronzer">Bronzer</option>
           <option value="blush">Blush</option>
           <option value="lip_liner">Lip Liner</option>
-          <option value="lip_liner">Foundation</option>
-          <option value="lip_liner">Eye Shadow</option>
-          <option value="lip_liner">Nail Polish</option>
-          <option value="lip_liner">Lip Stick</option>
-          <option value="lip_liner">Mascara</option>
+          <option value="foundation">Foundation</option>
+          <option value="eyeshadow">Eye Shadow</option>
+          <option value="eyeliner">Eye Liner</option>
+          <option value="nail_polish">Nail Polish</option>
+          <option value="lipstick">Lip Stick</option>
+          <option value="mascara">Mascara</option>
         </select>
     </div>
   )
