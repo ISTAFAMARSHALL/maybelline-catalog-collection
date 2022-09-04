@@ -14,21 +14,25 @@ function Form() {
     image:image
   }
 
-  console.log(newProduct)
+  function handleSubmit(e) { 
+    e.preventDefault()
+    console.log(newProduct)
+  }
+  
 
 
   return (
     <div>
       <h2>Enter New Product Here</h2>
-      <form>
+      <form onSubmit={handleSubmit} >
         <label htmlFor='name'>Name:</label>
-        <input onChange={(e) => setName(e.target.value)} type="text" name="name" id="name" /> <br></br>
+        <input onChange={(e) => setName(e.target.value)} type="text" name="name" id="name" value={name} required /> <br></br>
         <label htmlFor='description'>Description:</label>
-        <input onChange={(e) => setDescription(e.target.value)} type="text" name="description" id="description" /> <br></br>
+        <input onChange={(e) => setDescription(e.target.value)} type="text" name="description" id="description" value={description} required/> <br></br>
         <label htmlFor='price'>Price:</label>
-        <input onChange={(e) => setPrice(e.target.value)} type="text" name="price" id="price" /> <br></br>
+        <input onChange={(e) => setPrice(e.target.value)} type="text" name="price" id="price" value={price} required/> <br></br>
         <label htmlFor='image'>Image Url:</label>
-        <input onChange={(e) => setImage(e.target.value)} type="text" name="image" id="image" /> <br></br>
+        <input onChange={(e) => setImage(e.target.value)} type="text" name="image" id="image" value={image} required/> <br></br>
         <input type="submit" value="Add New Product"/>
       </form>
     </div>
