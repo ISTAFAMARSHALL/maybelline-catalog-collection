@@ -7,6 +7,8 @@ function MakeUpComponentContainer() {
 
   const [products, setproducts] = useState([])
   const [search, setSearch] = useState("")
+  const [sort, setSort] = useState()
+
 
   useEffect(() => {
     fetch("http://localhost:3001/products")
@@ -14,7 +16,17 @@ function MakeUpComponentContainer() {
     .then((data) => setproducts(data))
   }, []) 
 
-  const filteredCards = products.filter((item) => {
+  const sortCards = products.filter((item) => {
+    if (sort === "" )
+    { return item 
+    }
+    return item.product_type === sort
+
+  })
+
+  console.log(sortCards)
+
+  const filteredCards = sortCards.filter((item) => {
     if (search === "") {
       return item
     } 
@@ -32,7 +44,7 @@ function MakeUpComponentContainer() {
 
   return (
       <div>
-       <h1 style={{display: "flex"}}><Search  search={search} setSearch={setSearch} /><Sort /> </h1>
+       <h1 style={{display: "flex"}}><Search  search={search} setSearch={setSearch} /><Sort  setSort={setSort} /> </h1>
        <div>
        <h2>Product List</h2>
        {productCards}

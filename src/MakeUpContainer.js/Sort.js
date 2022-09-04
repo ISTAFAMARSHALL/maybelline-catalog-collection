@@ -1,10 +1,10 @@
 
 import React from 'react'
 
-function Sort() {
+function Sort({setSort}) {
   return (
     <div> Sort:
-          <select onChange={(e) => console.log(e.target.value)}>
+          <select onChange={(e) => setSort(e.target.value)}>
           <option value="">All</option>
           <option value="bronzer">Bronzer</option>
           <option value="blush">Blush</option>
