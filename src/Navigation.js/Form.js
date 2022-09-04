@@ -11,7 +11,29 @@ function Form() {
     name:name,
     description:description,
     price:price,
-    image:image
+    image:image,
+      brand: "maybelline",
+      name:name,
+      price:price,
+      price_sign: "",
+      currency: "",
+      image_link: image,
+      product_link: "",
+      website_link: "",
+      description:description,
+      rating: "",
+      category: "",
+      product_type: "",
+      tag_list: [],
+      created_at: "",
+      updated_at: "",
+      product_api_url: "",
+      api_featured_image: "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/007/original/data?1514061107",
+      product_colors: [
+        {
+          "hex_value": "#0E0F11",
+          "colour_name": "Very Black "
+        }
   }
 
   function handleSubmit(e) { 
