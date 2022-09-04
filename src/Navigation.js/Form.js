@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-function Form({setName,setDescription,setPrice,setImage}) {
+function Form() {
+  
+  const [name, setName] = useState("")
+  const [description, setDescription] = useState("")
+  const [price, setPrice] = useState("")
+  const [image, setImage] = useState("")
+
   return (
     <div>
       <h2>Enter New Product Here</h2>
