@@ -11,19 +11,15 @@
       "product_link": "https://well.ca/products/maybelline-face-studio-master_88837.html",
       "website_link": "https://well.ca",
       "description": "Maybelline Face Studio Master Hi-Light Light Boosting bronzer formula has an expert \nbalance of shade + shimmer illuminator for natural glow. Skin goes \nsoft-lit with zero glitz.\n\n\t\tFor Best Results: Brush over all shades in palette and gently sweep over \ncheekbones, brow bones, and temples, or anywhere light naturally touches\n the face.\n\n\t\t\n\t\n\n                    ",
-      "rating": 5.0,
+      "rating": 5,
       "category": null,
       "product_type": "bronzer",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:36:15.012Z",
       "updated_at": "2017-12-23T21:08:50.624Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/495.json",
       "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/495/original/open-uri20171223-4-9hrto4?1514063330",
-      "product_colors": [
-        
-      ]
+      "product_colors": []
     },
     {
       "id": 488,
@@ -39,9 +35,7 @@
       "rating": 4.5,
       "category": null,
       "product_type": "bronzer",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:36:05.584Z",
       "updated_at": "2017-12-23T21:08:49.985Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/488.json",
@@ -67,9 +61,7 @@
       "rating": null,
       "category": null,
       "product_type": "bronzer",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:35:40.504Z",
       "updated_at": "2017-12-23T21:08:48.157Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/477.json",
@@ -103,16 +95,12 @@
       "rating": null,
       "category": "powder",
       "product_type": "blush",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:35:27.706Z",
       "updated_at": "2017-12-23T21:08:47.102Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/468.json",
       "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/468/original/open-uri20171223-4-sz64re?1514063327",
-      "product_colors": [
-        
-      ]
+      "product_colors": []
     },
     {
       "id": 452,
@@ -125,19 +113,15 @@
       "product_link": "https://well.ca/products/maybelline-face-studio-master_88836.html",
       "website_link": "https://well.ca",
       "description": "Maybelline Face Studio Master Hi-Light Light Boosting blush formula has an expert \nbalance of shade + shimmer illuminator for natural glow. Skin goes \nsoft-lit with zero glitz.\n\n\t\tFor Best Results: Brush over all shades in palette and gently sweep over \ncheekbones, brow bones, and temples, or anywhere light naturally touches\n the face.\n\n\t\t\n\t\n\n                    ",
-      "rating": 5.0,
+      "rating": 5,
       "category": "powder",
       "product_type": "blush",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:35:07.476Z",
       "updated_at": "2017-12-23T20:51:17.460Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/452.json",
       "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/452/original/open-uri20171223-4-1pmofky?1514062277",
-      "product_colors": [
-        
-      ]
+      "product_colors": []
     },
     {
       "id": 439,
@@ -153,9 +137,7 @@
       "rating": 4.8,
       "category": "powder",
       "product_type": "blush",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:34:46.302Z",
       "updated_at": "2017-12-23T21:08:45.097Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/439.json",
@@ -205,9 +187,7 @@
       "rating": 4.5,
       "category": "cream",
       "product_type": "blush",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:34:17.251Z",
       "updated_at": "2017-12-23T21:08:40.418Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/414.json",
@@ -245,9 +225,7 @@
       "rating": 3.5,
       "category": null,
       "product_type": "lip_liner",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:33:39.513Z",
       "updated_at": "2017-12-23T21:08:35.034Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/398.json",
@@ -285,16 +263,12 @@
       "rating": 3.8,
       "category": "cream",
       "product_type": "foundation",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:33:13.645Z",
       "updated_at": "2017-12-23T21:08:34.195Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/382.json",
       "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/382/original/open-uri20171223-4-8avct4?1514063314",
-      "product_colors": [
-        
-      ]
+      "product_colors": []
     },
     {
       "id": 380,
@@ -310,9 +284,7 @@
       "rating": 4.7,
       "category": "cream",
       "product_type": "foundation",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:33:11.836Z",
       "updated_at": "2017-12-23T21:08:33.623Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/380.json",
@@ -358,9 +330,7 @@
       "rating": 4.4,
       "category": "cream",
       "product_type": "foundation",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:33:10.614Z",
       "updated_at": "2017-12-23T21:08:33.441Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/379.json",
@@ -406,9 +376,7 @@
       "rating": 3.9,
       "category": "mineral",
       "product_type": "foundation",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:32:42.283Z",
       "updated_at": "2017-12-23T21:08:29.561Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/366.json",
@@ -434,9 +402,7 @@
       "rating": 2.5,
       "category": "cream",
       "product_type": "foundation",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:32:21.385Z",
       "updated_at": "2017-12-23T21:08:36.656Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/354.json",
@@ -503,12 +469,10 @@
       "product_link": "https://well.ca/products/maybelline-superstay-better-skin_112548.html",
       "website_link": "https://well.ca",
       "description": "The Maybelline Superstay Better Skin Foundation reduces the appearance of spots, bumps, dullness and redness to give you brighter, smoother and more even skin. Features:Longwear that improves skin every minute you're in it: brighter, smoother and more even.With micro-flex technology and the antioxidant power of Actyl-C.Ideal for sensitive skin. Good for all skin types. Medium to full coverageHow to Apply: Apply evenly to your face and blend with your fingers. ",
-      "rating": 3.0,
+      "rating": 3,
       "category": "liquid",
       "product_type": "foundation",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:32:19.867Z",
       "updated_at": "2017-12-23T21:08:27.318Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/353.json",
@@ -550,9 +514,7 @@
       "rating": null,
       "category": "liquid",
       "product_type": "foundation",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:31:57.182Z",
       "updated_at": "2017-12-23T21:08:22.715Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/339.json",
@@ -578,9 +540,7 @@
       "rating": 4.4,
       "category": "liquid",
       "product_type": "foundation",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:31:31.590Z",
       "updated_at": "2017-12-23T21:08:12.680Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/321.json",
@@ -622,9 +582,7 @@
       "rating": 4.4,
       "category": "liquid",
       "product_type": "foundation",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:31:30.291Z",
       "updated_at": "2017-12-23T21:08:12.553Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/320.json",
@@ -690,9 +648,7 @@
       "rating": 3.8,
       "category": "liquid",
       "product_type": "foundation",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:31:25.764Z",
       "updated_at": "2017-12-23T21:08:20.342Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/317.json",
@@ -727,19 +683,15 @@
       "product_link": "https://well.ca/products/maybelline-expert-wear-eye-shadow_79611.html",
       "website_link": "https://well.ca",
       "description": "Easy to use, lots to choose!Maybelline Expert Wear Eye Shadow \nQuads have 4 coordinating shades with step by step application guide \nmakes shadow easier than ever. The eyeshadows glide on effortlessly with\n superior smoothness and the velvet-tip applicator blends without \ntugging or pulling. Safe for sensitive eyes and contact lens wearers, \nophthalmologist-tested.For best results sweep the brush 4 times:Apply base color. Sweep shade on lid. Contour crease and blend. Line around eye. ",
-      "rating": 4.0,
+      "rating": 4,
       "category": null,
       "product_type": "eyeshadow",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:31:00.847Z",
       "updated_at": "2017-12-23T21:08:19.919Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/309.json",
       "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/309/original/open-uri20171223-4-1mmpy02?1514063299",
-      "product_colors": [
-        
-      ]
+      "product_colors": []
     },
     {
       "id": 307,
@@ -752,12 +704,10 @@
       "product_link": "https://well.ca/products/maybelline-eyestudio-color-tattoo_114535.html",
       "website_link": "https://well.ca",
       "description": "Maybelline Eyestudio Color Tattoo Concentrated Crayons give you high-intensity color that looks vibrant all-day long.Features:Smooth, soft creamy finishPlayful intense colorsAll day tattoo tenacity. Playful color intensity. In an easy glide on crayon.",
-      "rating": 3.0,
+      "rating": 3,
       "category": null,
       "product_type": "eyeshadow",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:30:58.610Z",
       "updated_at": "2017-12-23T21:08:18.441Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/307.json",
@@ -816,19 +766,15 @@
       "product_link": "https://well.ca/products/maybelline-the-nudes-eye-shadow_95144.html",
       "website_link": "https://well.ca",
       "description": "Maybelline The Nudes Eye Shadow Palette let's you create looks from day to night. Deep to light. So try it out and create your ideal eye look today!Features: \n\t\t\n\t\t\t\n\t\t\t\t13 looks in one Expert Wear eyeshadow palette\nExtraordinary Colour, from soft highlights, to medium bronze, to rich black\nFrom Maybelline's ultra-blendable pigments\nLong Wear\n\t\t\n\t\t\t\n\t\t\t\t",
-      "rating": 2.0,
+      "rating": 2,
       "category": "palette",
       "product_type": "eyeshadow",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:30:35.715Z",
       "updated_at": "2017-12-26T00:33:00.316Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/295.json",
       "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/295/original/open-uri20171223-4-5nv3ff?1514063296",
-      "product_colors": [
-        
-      ]
+      "product_colors": []
     },
     {
       "id": 291,
@@ -844,9 +790,7 @@
       "rating": 4.3,
       "category": null,
       "product_type": "eyeshadow",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:30:28.176Z",
       "updated_at": "2017-12-23T21:08:16.007Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/291.json",
@@ -888,16 +832,12 @@
       "rating": 4.5,
       "category": "palette",
       "product_type": "eyeshadow",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:30:20.193Z",
       "updated_at": "2017-12-26T00:33:00.206Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/286.json",
       "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/286/original/open-uri20171223-4-1pj74fn?1514063294",
-      "product_colors": [
-        
-      ]
+      "product_colors": []
     },
     {
       "id": 279,
@@ -913,9 +853,7 @@
       "rating": 4.5,
       "category": null,
       "product_type": "eyeshadow",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:30:10.665Z",
       "updated_at": "2017-12-23T21:08:13.016Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/279.json",
@@ -950,12 +888,10 @@
       "product_link": "https://well.ca/products/maybelline-eye-studio-color-tattoo_67270.html",
       "website_link": "https://well.ca",
       "description": "Dare to wear 24HR shadow!Maybelline's Color Tattoo Cream Gel \nShadow uses ink technology for their most intense, long-lasting shimmery metallic shades﻿. The cream formula glides on without creasing and keeps \ncolour vibrant.Ophthalmologist-tested. Safe for sensitive eyes and contact lens wearers.\n                    \n                    \n                    \n                        \n                        Shade Range: For best results: With \nfingertips, sweep all over eye from inner corner and work outwards. For\n added drama, darken as desired.      ",
-      "rating": 4.0,
+      "rating": 4,
       "category": null,
       "product_type": "eyeshadow",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:30:01.223Z",
       "updated_at": "2017-12-23T20:51:33.487Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/273.json",
@@ -989,16 +925,12 @@
       "rating": 4.5,
       "category": "pencil",
       "product_type": "eyeliner",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:28:59.422Z",
       "updated_at": "2017-12-23T20:51:31.255Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/232.json",
       "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/232/original/open-uri20171223-4-1gco531?1514062291",
-      "product_colors": [
-        
-      ]
+      "product_colors": []
     },
     {
       "id": 230,
@@ -1014,9 +946,7 @@
       "rating": 4.3,
       "category": "pencil",
       "product_type": "eyeliner",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:28:57.194Z",
       "updated_at": "2017-12-23T20:51:30.858Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/230.json",
@@ -1046,9 +976,7 @@
       "rating": null,
       "category": "pencil",
       "product_type": "eyeliner",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:28:51.002Z",
       "updated_at": "2017-12-23T20:51:29.742Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/225.json",
@@ -1102,16 +1030,12 @@
       "rating": null,
       "category": "liquid",
       "product_type": "eyeliner",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:28:44.845Z",
       "updated_at": "2017-12-23T20:51:28.186Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/221.json",
       "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/221/original/open-uri20171223-4-1v1tlhi?1514062288",
-      "product_colors": [
-        
-      ]
+      "product_colors": []
     },
     {
       "id": 179,
@@ -1124,19 +1048,15 @@
       "product_link": "https://well.ca/products/maybelline-eyestudio-master-precise_40535.html",
       "website_link": "https://well.ca",
       "description": "Experience the new generation of liquid liner from Maybelline!              Ink technology keeps pigments super-saturatedSpring cap keeps the formula freshMost precise line for lasting intensity                                                    Safe for sensitive eyes and ophthalmologist-testedContact lens safeFor Best Results: 1. Start at inner corner of upper eye. Flare outward. 2. Create the sharpest design, uniquely your own.",
-      "rating": 4.0,
+      "rating": 4,
       "category": "liquid",
       "product_type": "eyeliner",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:27:51.862Z",
       "updated_at": "2017-12-23T20:51:16.524Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/179.json",
       "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/179/original/open-uri20171223-4-1vi901o?1514062276",
-      "product_colors": [
-        
-      ]
+      "product_colors": []
     },
     {
       "id": 177,
@@ -1149,12 +1069,10 @@
       "product_link": "https://well.ca/products/maybelline-line-stiletto-ultimate_17295.html",
       "website_link": "https://well.ca",
       "description": "Easily Creates Slender Lines\n\n    Rich, Even Color\n    All-Day Wear\n    Smooth Glide Felt Tip\n    Flexible tip guides on smoothly for the most precise control.\n    All-day wear up to 8 hours\n",
-      "rating": 4.0,
+      "rating": 4,
       "category": "liquid",
       "product_type": "eyeliner",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:27:50.155Z",
       "updated_at": "2017-12-23T20:51:16.164Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/177.json",
@@ -1184,9 +1102,7 @@
       "rating": 4.2,
       "category": "liquid",
       "product_type": "eyeliner",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:27:44.166Z",
       "updated_at": "2017-12-23T20:51:13.942Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/172.json",
@@ -1212,9 +1128,7 @@
       "rating": 4.4,
       "category": "liquid",
       "product_type": "eyeliner",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:27:42.507Z",
       "updated_at": "2017-12-23T20:51:13.684Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/170.json",
@@ -1245,19 +1159,15 @@
       "product_link": "https://well.ca/products/maybelline-color-show-nail-lacquer_96730.html",
       "website_link": "https://well.ca",
       "description": "Maybelline Color Show Nail Lacquer Jewels collection features jeweled nail lacquer top coats straight from the shows!Features:Adorns your nails with textured gem effectsTrendy top coat nail art designsEasy-flow brushFormaldehyde, DBP and Toluene freeShade Range: (left to right: Mosaic Prism, Platinum Adorn)For Best Results:First apply a clear base coat to prevent your nails from yellowing and to help your nail color last longer. Choose a base shade and with one sweep, paint the first line of nail polish up the center of your nail starting from the base to the tip.For the cleanest look, be sure to leave a small space at the base of the nail. Then apply nail color to the rest of the nail. Pick your textured top coat and paint over your base shade for a street styled nail art look.",
-      "rating": 3.0,
+      "rating": 3,
       "category": null,
       "product_type": "nail_polish",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:26:51.778Z",
       "updated_at": "2017-12-23T20:51:08.631Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/146.json",
       "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/146/original/open-uri20171223-4-fnr4hp?1514062268",
-      "product_colors": [
-        
-      ]
+      "product_colors": []
     },
     {
       "id": 145,
@@ -1270,12 +1180,10 @@
       "product_link": "https://well.ca/products/maybelline-color-show-nail-lacquer_96731.html",
       "website_link": "https://well.ca",
       "description": "Maybelline Color Show Nail Lacquer Veils collection gives you subtle shimmers to refined glitters in colours straight from the shows!Features:Trendy top coat nail art designsEasy-flow brushFormaldehyde, DBP and Toluene freeShade Range: (left to right: Amethyst Aura, Rose Mirage, Crystal Disguise)For Best Results:First\n apply a clear base coat to prevent your nails from yellowing and to \nhelp your nail color last longer. Choose a base shade and with one \nsweep, paint the first line of nail polish up the center of your nail \nstarting from the base to the tip.For the cleanest look, be sure\n to leave a small space at the base of the nail. Then apply nail color \nto the rest of the nail. Pick your textured top coat and paint over your\n base shade for a street styled nail art look.",
-      "rating": 4.0,
+      "rating": 4,
       "category": null,
       "product_type": "nail_polish",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:26:50.448Z",
       "updated_at": "2017-12-23T20:51:08.413Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/145.json",
@@ -1301,9 +1209,7 @@
       "rating": 3.3,
       "category": null,
       "product_type": "nail_polish",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:26:31.673Z",
       "updated_at": "2017-12-23T20:51:05.961Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/133.json",
@@ -1329,9 +1235,7 @@
       "rating": null,
       "category": "lipstick",
       "product_type": "lipstick",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:25:33.281Z",
       "updated_at": "2017-12-23T20:50:59.331Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/97.json",
@@ -1390,12 +1294,10 @@
       "product_link": "https://well.ca/products/maybelline-color-sensational-rebel_101920.html",
       "website_link": "https://well.ca",
       "description": "\n                       \n\tMaybelline Color Sensational® Rebel Bloom lipstick offers vivacious pastels in a super-saturated lipcolour. Enjoy the kicky bouquet of lip colors in \npinks, reds and mauves.  Features:Super-saturated pigments take fresh picked pastels to a new bright\nNever dull, washed out or shy\nHoney nectar adds a sumptuous feel\n\n\t\tApplication: Apply lipcolor starting in the center of your upper lip. Work\n from the center to the outer edges of your lip, following the contours \nof your mouth. Then glide across the entire bottom lip.\n\n\t\t\n\t\n\n                    ",
-      "rating": 3.0,
+      "rating": 3,
       "category": "lipstick",
       "product_type": "lipstick",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:25:20.981Z",
       "updated_at": "2017-12-23T20:50:59.663Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/89.json",
@@ -1441,9 +1343,7 @@
       "rating": null,
       "category": "lipstick",
       "product_type": "lipstick",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:25:14.865Z",
       "updated_at": "2017-12-23T20:50:59.009Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/85.json",
@@ -1501,9 +1401,7 @@
       "rating": 4.8,
       "category": "lipstick",
       "product_type": "lipstick",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:24:56.389Z",
       "updated_at": "2017-12-23T20:51:18.174Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/73.json",
@@ -1554,12 +1452,10 @@
       "product_link": "https://well.ca/products/maybelline-color-sensational-vivids_66103.html",
       "website_link": "https://well.ca",
       "description": "With Maybelline Colour Sensational Vivids Lipcolour bright goes gorgeous, never garish!Get brighter color from Maybelline's exclusive vivid pigments.﻿ Plus get creamier feel from nourishing honey nectar.﻿ Features: Be bright and gorgeousExclusive Vivid colors are brighterHoney nectar formula nourishes lips﻿For Best Results: Apply lipcolor starting in the center of your upper lip. Work from the center to the outer edges of your lip, following the contours of your mouth. Then glide across the entire bottom lip.﻿Shade Range: ",
-      "rating": 5.0,
+      "rating": 5,
       "category": "lipstick",
       "product_type": "lipstick",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:24:55.093Z",
       "updated_at": "2017-12-23T20:50:55.568Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/72.json",
@@ -1602,12 +1498,10 @@
       "product_link": "https://well.ca/products/maybelline-color-sensational-creamy_100322.html",
       "website_link": "https://well.ca",
       "description": "Maybelline Creamy Mattes by Color Sensational deliver a burst of bold lip color and a surge of creamy texture in great make-a-statement shades, for mattes your lips will love to wear!Features: Lips slip into this creamy matteMattifying cream pure pigments and three precious oilsMake-a-statement shades",
-      "rating": 5.0,
+      "rating": 5,
       "category": "lipstick",
       "product_type": "lipstick",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:24:51.748Z",
       "updated_at": "2017-12-23T20:50:56.946Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/69.json",
@@ -1657,9 +1551,7 @@
       "rating": 4.2,
       "category": "lipstick",
       "product_type": "lipstick",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:24:44.446Z",
       "updated_at": "2017-12-23T20:50:57.314Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/65.json",
@@ -1701,9 +1593,7 @@
       "rating": 4.5,
       "category": null,
       "product_type": "mascara",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:11:34.910Z",
       "updated_at": "2017-12-23T20:50:53.492Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/42.json",
@@ -1729,9 +1619,7 @@
       "rating": 4.4,
       "category": null,
       "product_type": "mascara",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:11:22.926Z",
       "updated_at": "2017-12-23T20:31:52.284Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/32.json",
@@ -1757,16 +1645,12 @@
       "rating": 3.8,
       "category": null,
       "product_type": "mascara",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:11:20.042Z",
       "updated_at": "2017-12-23T20:31:51.787Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/29.json",
       "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/029/original/open-uri20171223-4-14f14ix?1514061111",
-      "product_colors": [
-        
-      ]
+      "product_colors": []
     },
     {
       "id": 23,
@@ -1779,12 +1663,10 @@
       "product_link": "https://well.ca/products/maybelline-great-lash-big-mascara_15818.html",
       "website_link": "https://well.ca",
       "description": "Live Big! Great Lash Big has a Bigger Brush for Great Big Live-It-Up Lashes!\n\nThe Great Big Brush provides a bigger, bolder lash effect\nGreat buildable formula still conditions as it thickens with even greater intensity\nNo clumps or globs\n",
-      "rating": 4.0,
+      "rating": 4,
       "category": null,
       "product_type": "mascara",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:11:13.293Z",
       "updated_at": "2017-12-23T20:31:49.724Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/23.json",
@@ -1818,9 +1700,7 @@
       "rating": 4.2,
       "category": null,
       "product_type": "mascara",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:11:09.921Z",
       "updated_at": "2017-12-23T20:31:50.950Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/20.json",
@@ -1850,9 +1730,7 @@
       "rating": 4.5,
       "category": null,
       "product_type": "mascara",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:11:01.516Z",
       "updated_at": "2017-12-23T20:31:48.510Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/14.json",
@@ -1879,12 +1757,10 @@
       "product_link": "https://well.ca/products/maybelline-illegal-length-fiber_84357.html",
       "website_link": "https://well.ca",
       "description": "Build 4mm of measurable extensions! Features: Fiber-fix brush has 6 different contact points with each lash for optimal fiber placementBreakthrough formula contains fibers up to 4mm in lengthSealing formula stretches lashes and seals fibers to lashesWashable, also available in waterproof formula \nFor Best Results: Extend lashes upward with Fiber-Fix brush, from root to tip. \nOnly a few strokes necessary. For best results, do not let dry between \ncoats.  Removes easily with soap and water or Maybelline® Expert Eyes® \n100% Oil-Free Eye Makeup Remover.\n",
-      "rating": 4.0,
+      "rating": 4,
       "category": null,
       "product_type": "mascara",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:10:59.587Z",
       "updated_at": "2017-12-23T20:31:48.155Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/12.json",
@@ -1910,9 +1786,7 @@
       "rating": null,
       "category": null,
       "product_type": "mascara",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:10:58.856Z",
       "updated_at": "2017-12-23T20:31:47.966Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/11.json",
@@ -1942,9 +1816,7 @@
       "rating": 4.2,
       "category": null,
       "product_type": "mascara",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:10:56.475Z",
       "updated_at": "2017-12-23T20:31:47.757Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/9.json",
@@ -1971,12 +1843,10 @@
       "product_link": "https://well.ca/products/maybelline-lash-stiletto-ultimate_17287.html",
       "website_link": "https://well.ca",
       "description": "The only mascara that does for lashes what stilettos do for legs.\n\n    The Grip & Extend brush grasps each lash and coats from every angle\n    Elastic formula stretches lashes for provocative length\n    Pro-Vitamin B-5 formula conditions and smoothes for black-patent shine\n    Contact lens safe and Ophthalmologist tested\n    Waterproof \n\n ",
-      "rating": 4.0,
+      "rating": 4,
       "category": null,
       "product_type": "mascara",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:10:55.406Z",
       "updated_at": "2017-12-23T20:31:47.606Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/8.json",
@@ -1999,12 +1869,10 @@
       "product_link": "https://well.ca/products/maybelline-volumexpress-the-falsies_26311.html",
       "website_link": "https://well.ca",
       "description": "False lash glam in a tube, instantly!The Falsies Mascara delivers a false lash look, giving you a full set of voluminous, bold, fanned-out lashes and the appearance of no gaps from any angle.The Pro-Keratin Fiber enriched formula is designed to deliver immediate results, distributing volume and visible intensity to your lashes. The spoon-shaped brush helps fan lashes out.The Falsies Mascara is designed to give the appearance of no gaps and spaces. In a wink, lashes you didn’t even know you had look visibly thickened!",
-      "rating": 4.0,
+      "rating": 4,
       "category": null,
       "product_type": "mascara",
-      "tag_list": [
-        
-      ],
+      "tag_list": [],
       "created_at": "2016-10-01T18:10:54.660Z",
       "updated_at": "2017-12-23T20:31:47.473Z",
       "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/7.json",
@@ -2015,6 +1883,12 @@
           "colour_name": "Very Black "
         }
       ]
+    },
+    {
+      "id": 496
+    },
+    {
+      "id": 497
     }
   ]
 }

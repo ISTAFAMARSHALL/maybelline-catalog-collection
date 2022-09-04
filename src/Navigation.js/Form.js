@@ -16,7 +16,13 @@ function Form() {
 
   function handleSubmit(e) { 
     e.preventDefault()
-    console.log(newProduct)
+    fetch("http://localhost:3001/products", {
+      method: "POST",
+      headers: {
+        "Contect-Type" : "application/json"
+      },
+      body: JSON.stringify(newProduct) 
+    })
   }
   
 
