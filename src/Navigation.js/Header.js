@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom'
 function Header() {
 
   const style = {
-    padding: "3em"
+    padding: "5em"
   }
 
   return (
