@@ -1,8 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function MakeupCards() {
+
+function MakeupCards({item}) {  
+
+  console.log(item)
+
   return (
-    <div>MakeupCards</div>
+      
+      <div key={item.id}>
+        <img src={item.image_link} alt={item.name}  ></img>
+        <h4>{item.name}</h4>
+        <p>{item.description}</p>
+        <h3>Price: {item.price}</h3>
+        <Link>Details</Link>       
+      </div>
   )
 }
 

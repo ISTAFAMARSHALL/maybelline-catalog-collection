@@ -1,7 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 
-const style ={
+const style = {
   padding: "3em"
 }
 
