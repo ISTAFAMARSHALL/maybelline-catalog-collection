@@ -9,12 +9,12 @@ const style = {
 function Navbar() {
   return (
     
-    <div >
+    <div id='navbar'>
       
         <NavLink 
             activeStyle={{ 
             fontWeight: "bolder",
-            color: "red"
+            color: "pink"
         }}  
             style={style}
             exact 
@@ -24,7 +24,7 @@ function Navbar() {
         <NavLink 
               activeStyle={{ 
               fontWeight: "bolder",
-              color: "red"
+              color: "pink"
           }}  
               style={style}
               exact
@@ -34,7 +34,7 @@ function Navbar() {
         <NavLink 
               activeStyle={{ 
               fontWeight: "bolder",
-              color: "red"
+              color: "pink"
           }}  
               style={style}
               exact
@@ -44,7 +44,7 @@ function Navbar() {
           <NavLink 
               activeStyle={{ 
               fontWeight: "bolder",
-              color: "red"
+              color: "pink"
           }}  
               style={style}
               exact

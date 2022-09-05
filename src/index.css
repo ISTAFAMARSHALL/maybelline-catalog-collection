@@ -27,3 +27,17 @@ body {
   color: black;
   font-size: 400%;
  }
+
+ footer {
+  font-style: italic;
+  color: black;
+  font-size: 175%;
+ }
+
+ #navbar {
+  font-style: italic;
+  color: black;
+  font-size: 150%;
+  padding: auto;
+
+ }
