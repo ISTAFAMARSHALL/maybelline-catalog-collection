@@ -29,7 +29,7 @@ function App() {
                 <Form />
               </Route>
 
-              <Route exact path="/products/id" >
+              <Route path="/products/id" >
                 <CardDetails />
               </Route>
               
