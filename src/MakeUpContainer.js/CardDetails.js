@@ -11,17 +11,17 @@ function CardDetails({products}) {
   console.log(d[0])
 
   return (
+
     <div >
-    {/* <h1>{item.name}</h1>
-    <img src={item.image_link} alt={item.name}  ></img>
-    <p>Release Date:{item.created_at}</p>
-    <p>Prodcut Type:{item.product_type}</p>
-    <p></p>
-    <p>Rating:{item.rating}</p>
-     <p>Availble Colors:{item.product_colors}</p> 
-    <h3>Price: {item.price}</h3> */}
-</div>
-    
+        <h1>{}</h1>
+        <img src={d.image_link} alt={d.name}  ></img>
+        <p>Release Date:{}</p>
+        <p>Prodcut Type:{}</p>
+        <p></p>
+        <p>Rating:{}</p>
+        <p>Availble Colors:{}</p> 
+        <h3>Price: {}</h3>
+    </div>
   )
 }
 
