@@ -11,7 +11,7 @@ function MakeupCards({item}) {
         <h4>{item.name}</h4>
         <p>{item.description}</p>
         <h3>Price: {item.price}</h3>
-        <Link>Details</Link>       
+        <Link to="/products/id" >Product Details</Link>       
       </div>
   )
 }

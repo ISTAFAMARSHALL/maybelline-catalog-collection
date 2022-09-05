@@ -8,9 +8,11 @@ function Header() {
   }
 
   return (
-        <NavLink style={style} exact to="/">
-            <h1>Maybelline Catalog Collection</h1>
+    <h1>
+        <NavLink exact to="/">
+            Maybelline Catalog Collection
         </NavLink>
+        </h1>
   )
 }
 
