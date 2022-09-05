@@ -2,10 +2,10 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 
 
-function CardDetails({}) {
+function CardDetails({products}) {
 
   const {id } = useParams();
-  console.log(id)
+  console.log(products)
   
   return (
     <div>CardDetails</div>

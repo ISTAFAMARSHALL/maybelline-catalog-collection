@@ -38,26 +38,28 @@ function MakeUpComponentContainer() {
 
   const productCards = filteredCards.map((item) => {
     return (
-
       <div>
-        <Switch>
-          <Route exact path="/products/:id" >
-        <CardDetails products={products} />
-        </Route>
-        <Route>
           <MakeupCards  key={item.id} item={item}  />
-          </Route>
-          </Switch>
       </div>
     )})
 
   return (
       <div>
        <div id='searchbar' style={{display: "flex" , width: "100%" }}><Search  search={search} setSearch={setSearch} /> <Sort  setSort={setSort} /> </div>
-       <div>
-       <h2>Product List</h2>
-       {productCards}
-       </div>
+        <div>
+       
+            <Switch>
+                <Route exact path="/products/:id" >
+                  <CardDetails products={products} />
+                </Route>
+
+                <Route> 
+                    <h2>Product List</h2>
+                      {productCards}
+                </Route>   
+            </Switch>
+
+        </div>
       </div>
   )
 }
