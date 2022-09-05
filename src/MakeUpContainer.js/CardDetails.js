@@ -8,7 +8,8 @@ function CardDetails({products}) {
   
   const d = products.filter(e => e.id === parseInt(id))
 
-  console.log(d[0])
+  
+  
 
   return (
 

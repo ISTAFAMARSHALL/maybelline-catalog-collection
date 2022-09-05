@@ -39,8 +39,8 @@ function MakeUpComponentContainer() {
 
   const productCards = filteredCards.map((item) => {
     return (
-      <div>
-          <MakeupCards  key={item.id} item={item}  />
+      <div key={item.id} >
+          <MakeupCards   item={item}  />
       </div>
     )})
 
@@ -56,7 +56,7 @@ function MakeUpComponentContainer() {
                   <CardDetails products={products}  />
                 </Route>
 
-                <Route> 
+                <Route exact path="/products" > 
                     <h2>Product List</h2>
                       {productCards}
                 </Route>   
