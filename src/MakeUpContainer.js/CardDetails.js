@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom'
 
 function CardDetails({ }) {
 
-  const [newobj, setNewobj] = useState({})
+  const [newobj, setNewobj] = useState([])
 
   const { id } = useParams();
   useEffect(() => {
@@ -18,9 +18,11 @@ function CardDetails({ }) {
     setNewobj(data)
   }
 
- const t = newobj.product_colors 
 
- console.log(t[0])
+
+//  console.log(newobj.product_colors.map((e) => e.colour_name))
+
+ 
 
 
 
