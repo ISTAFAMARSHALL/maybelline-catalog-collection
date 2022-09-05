@@ -1,13 +1,17 @@
 import React, { useEffect, useState } from 'react'
+import { Route, Switch, useParams } from 'react-router-dom'
 import MakeupCards from './MakeupCards'
 import Search from './Search'
 import Sort from './Sort'
+import CardDetails from './CardDetails';
 
 function MakeUpComponentContainer() {
 
   const [products, setproducts] = useState([])
   const [search, setSearch] = useState("")
   const [sort, setSort] = useState("")
+
+
 
 
   useEffect(() => {
@@ -34,8 +38,17 @@ function MakeUpComponentContainer() {
 
   const productCards = filteredCards.map((item) => {
     return (
-      <MakeupCards key={item.id} item={item}  />
 
+      <div>
+        <Switch>
+          <Route exact path="/products/:id" >
+        <CardDetails products={products} />
+        </Route>
+        <Route>
+          <MakeupCards  key={item.id} item={item}  />
+          </Route>
+          </Switch>
+      </div>
     )})
 
   return (

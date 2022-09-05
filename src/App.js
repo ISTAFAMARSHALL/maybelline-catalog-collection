@@ -8,7 +8,7 @@ import {Switch, Route} from 'react-router-dom'
 import Home from './Navigation.js/Home';
 import About from './Navigation.js/About';
 import Form from './Navigation.js/Form';
-import CardDetails from './MakeUpContainer.js/CardDetails';
+
 
 function App() {
 
@@ -28,12 +28,8 @@ function App() {
               <Route exact path="/products/new" >
                 <Form />
               </Route>
-
-              <Route path="/products/id" >
-                <CardDetails />
-              </Route>
               
-              <Route exact path="/products/" >
+              <Route path="/products/" >
                 <MakeUpComponentContainer />
               </Route>
               

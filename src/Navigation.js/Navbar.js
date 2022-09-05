@@ -11,7 +11,7 @@ function Navbar() {
     
     <div id='navbar'>
       
-        <NavLink 
+        <NavLink className="button"
             activeStyle={{ 
             fontWeight: "bolder",
             color: "pink"
@@ -21,7 +21,7 @@ function Navbar() {
             to="/"
           >Home</NavLink>
 
-        <NavLink 
+        <NavLink className="button"
               activeStyle={{ 
               fontWeight: "bolder",
               color: "pink"
@@ -31,7 +31,7 @@ function Navbar() {
               to="/products/new"
             >Add Product</NavLink>
 
-        <NavLink 
+        <NavLink className="button"
               activeStyle={{ 
               fontWeight: "bolder",
               color: "pink"
@@ -41,7 +41,7 @@ function Navbar() {
               to="/products"
             >Products</NavLink>
 
-          <NavLink 
+          <NavLink className="button"
               activeStyle={{ 
               fontWeight: "bolder",
               color: "pink"
