@@ -1,29 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 
 function CardDetails({products}) {
-  
-  parseInt()
 
   const {id} = useParams();
-  // console.log(products)
-  // console.log(id)
+  
+  const d = products.filter(e => e.id === parseInt(id))
 
-  const cards = products.filter((item) => { 
-    if (item.id === parseInt(id)){
-      console.log(item)
-      return item
-    }
-  })
-
-
-  const dCard = [...cards]
-
-  console.log(dCard)
+  console.log(d[0])
 
   return (
-    <div key={cards.id}>
+    <div >
     {/* <h1>{item.name}</h1>
     <img src={item.image_link} alt={item.name}  ></img>
     <p>Release Date:{item.created_at}</p>

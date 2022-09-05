@@ -14,6 +14,7 @@ function MakeUpComponentContainer() {
 
 
 
+
   useEffect(() => {
     fetch("http://localhost:3001/products")
     .then(r => r.json())
@@ -43,6 +44,8 @@ function MakeUpComponentContainer() {
       </div>
     )})
 
+
+
   return (
       <div>
        <div id='searchbar' style={{display: "flex" , width: "100%" }}><Search  search={search} setSearch={setSearch} /> <Sort  setSort={setSort} /> </div>
@@ -50,7 +53,7 @@ function MakeUpComponentContainer() {
        
             <Switch>
                 <Route exact path="/products/:id" >
-                  <CardDetails products={products} />
+                  <CardDetails products={products}  />
                 </Route>
 
                 <Route> 
