@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
+
+body {
+  text-align: center;
+  margin: 20px;
+  
+  /* background-image: url("https://img.freepik.com/free-photo/beautiful-shot-makeup-brush-isolated-black-background_181624-22339.jpg?w=900&t=st=1662359887~exp=1662360487~hmac=200eb6da344b0f2966a24de0f0704577c6b53e36d01a6f216ed234077a1c6345");
+  background-image: url("https://img.freepik.com/premium-photo/cosmetic-brushes-makeup-powder-dark-background_23-2148209050.jpg?w=900");
+  background-image: url("https://img.freepik.com/free-photo/makeup-brushes-with-whirling-pink-powder_23-2148208975.jpg?w=740&t=st=1662360046~exp=1662360646~hmac=68f10367b554abb9fe7726d0a3b116bec144066fee42e67cdb478f84ceecfbff");
+  background-color: #cccccc; */
+ }
+
+ h1 {
+  font-style: italic;
+  color: black;
+  font-size: 400%;
+ }
