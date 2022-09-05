@@ -3,7 +3,7 @@ import React from 'react'
 
 function Sort({setSort}) {
   return (
-    <div> Sort:
+    <div style={{display: "flex", marginLeft:"10px"}}> Sort:
           <select onChange={(e) => setSort(e.target.value)}>
           <option value="">All</option>
           <option value="bronzer">Bronzer</option>

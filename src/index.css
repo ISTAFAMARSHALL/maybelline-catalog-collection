@@ -40,3 +40,12 @@ body {
   font-size: 150%;
   padding: auto;
  }
+
+ #searchbar {
+  font-style: italic;
+  color: black;
+  font-size: 200%;
+  padding: auto;
+  margin: 20px;
+  
+ }
