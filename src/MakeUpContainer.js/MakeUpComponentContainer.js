@@ -53,7 +53,7 @@ function MakeUpComponentContainer() {
        
             <Switch>
                 <Route exact path="/products/:id" >
-                  <CardDetails products={products}  />
+                  <CardDetails products={filteredCards}  />
                 </Route>
 
                 <Route exact path="/products" > 

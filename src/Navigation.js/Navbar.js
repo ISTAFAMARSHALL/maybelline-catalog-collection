@@ -19,7 +19,7 @@ function Navbar() {
             style={style}
             exact 
             to="/"
-          >Home</NavLink>
+          ><button >Home</button></NavLink>
 
         <NavLink className="button"
               activeStyle={{ 
@@ -29,9 +29,9 @@ function Navbar() {
               style={style}
               exact
               to="/products/new"
-            >Add Product</NavLink>
+            ><button >Add Product</button></NavLink>
 
-        <NavLink className="button"
+        <NavLink 
               activeStyle={{ 
               fontWeight: "bolder",
               color: "pink"
@@ -39,7 +39,7 @@ function Navbar() {
               style={style}
               exact
               to="/products"
-            >Products</NavLink>
+            ><button >Products</button></NavLink>
 
           <NavLink className="button"
               activeStyle={{ 
@@ -49,7 +49,7 @@ function Navbar() {
               style={style}
               exact
               to="/about"
-            >About</NavLink>
+            ><button >About</button></NavLink>
 
     </div>
   )
