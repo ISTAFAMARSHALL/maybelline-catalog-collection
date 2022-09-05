@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Route, Switch, useParams } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import MakeupCards from './MakeupCards'
 import Search from './Search'
 import Sort from './Sort'

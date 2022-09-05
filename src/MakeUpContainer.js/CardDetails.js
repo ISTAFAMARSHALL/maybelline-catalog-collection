@@ -12,20 +12,21 @@ function CardDetails({ }) {
     fetch(`http://localhost:3001/products/${id}`)
     .then(r => r.json())
     .then((data) => handleData(data))
-    }, [id])
+    }, [])
 
   function handleData(data) {
     setNewobj(data)
   }
 
-  console.log(newobj.product_colors)
+ const t = newobj.product_colors 
 
-  const colors = newobj.product_colors.map(e => {
-    return (
-      <li>{e.colour_name}</li>
-      )
-    })
- 
+ console.log(t[0])
+
+
+
+
+  
+
   return (
 
     <div  >
@@ -35,7 +36,7 @@ function CardDetails({ }) {
       <p defaultValue="" >Prodcut Type:{newobj.product_type}</p>
       <p defaultValue=""></p>
       <p defaultValue="">Rating:{newobj.rating}</p>
-      <div> Availble Colors:{colors}</div>
+      <div> Availble Colors:{}</div>
       <h3 defaultValue="">Price: {newobj.price}</h3>
     </div>
   )
