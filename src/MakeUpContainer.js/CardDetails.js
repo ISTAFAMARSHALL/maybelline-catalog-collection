@@ -5,29 +5,24 @@ import { useParams } from 'react-router-dom'
 
 function CardDetails({ }) {
 
+ let newArr = []
+ 
   const [newobj, setNewobj] = useState([])
 
   const { id } = useParams();
   useEffect(() => {
     fetch(`http://localhost:3001/products/${id}`)
     .then(r => r.json())
-    .then((data) => handleData(data))
+    .then((data) => {
+      newArr = data 
+      handleData(data)})
     }, [])
 
   function handleData(data) {
     setNewobj(data)
   }
 
-
-
 //  console.log(newobj.product_colors.map((e) => e.colour_name))
-
- 
-
-
-
-
-  
 
   return (
 
