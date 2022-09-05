@@ -51,11 +51,12 @@ function Form() {
     setProduct_type("")
     history.push("/products")
   }
+
   
 
 
   return (
-    <div>
+    <div style={{margin: "20px"}}>
       <h2>Enter New Product Here</h2>
       <form onSubmit={handleSubmit} >
         <label htmlFor='name'>Name:</label>
