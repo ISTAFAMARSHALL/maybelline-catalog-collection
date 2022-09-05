@@ -43,7 +43,7 @@ function MakeUpComponentContainer() {
 
   return (
       <div>
-       <h1 style={{display: "flex"}}><Search  search={search} setSearch={setSearch} /><Sort  setSort={setSort} /> </h1>
+       <h1 style={{display: "flex"  }}><Search  search={search} setSearch={setSearch} /><Sort  setSort={setSort} /> </h1>
        <div>
        <h2>Product List</h2>
        {productCards}
