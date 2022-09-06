@@ -58,16 +58,16 @@ function Form() {
   return (
     <div style={{margin: "100px"}}>
       <h2>Enter New Product Here</h2>
-      <form onSubmit={handleSubmit} >
-        <label id="form" htmlFor='name'>Name:</label>
+      <form id="form" onSubmit={handleSubmit} >
+        <label htmlFor='name'>Name:</label>
         <input onChange={(e) => setName(e.target.value)} type="text" name="name" id="name" value={name} required /> <br></br>
-        <label id="form" htmlFor='description'>Description:</label>
+        <label htmlFor='description'>Description:</label>
         <input onChange={(e) => setDescription(e.target.value)} type="text" name="description" id="description" value={description} required/> <br></br>
-        <label id="form" htmlFor='price'>Price:</label>
+        <label htmlFor='price'>Price:</label>
         <input onChange={(e) => setPrice(e.target.value)} type="text" name="price" id="price" value={price} required/> <br></br>
-        <label id="form" htmlFor='product_type'>Product Type:</label>
+        <label htmlFor='product_type'>Product Type:</label>
         <input onChange={(e) => setProduct_type(e.target.value)} type="text" name="product_type" id="product_type" value={product_type} required/> <br></br>
-        <label  id="form"htmlFor='image'>Image Url:</label>
+        <label htmlFor='image'>Image Url:</label>
         <input onChange={(e) => setImage(e.target.value)} type="text" name="image" id="image" value={image} required/> <br></br>
         <input type="submit" value="Add New Product"/>
       </form>
