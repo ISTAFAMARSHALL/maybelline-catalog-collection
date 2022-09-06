@@ -49,3 +49,13 @@ body {
   max-height: 0%;
   
  }
+
+ #about2 {
+  text-align: center;
+  margin: 150px;
+  }
+
+  #about3 {
+    font-size: larger;
+    margin: 10px;
+  }
