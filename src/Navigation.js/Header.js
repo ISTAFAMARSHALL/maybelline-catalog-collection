@@ -1,6 +1,6 @@
 import React from 'react'
-import {NavLink, useHistory} from 'react-router-dom'
-import { StyleHTMLAttributes } from 'react'
+import { useHistory} from 'react-router-dom'
+
 
 
 function Header() {
@@ -16,7 +16,7 @@ function Header() {
 
   return (
         <h1 onClick={() => history.push("/")} >
-        Maybelline Catalog Collection
+          Maybelline Catalog Collection
         </h1>
   )
 }
