@@ -1,17 +1,22 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import {NavLink, useHistory} from 'react-router-dom'
+import { StyleHTMLAttributes } from 'react'
+
 
 function Header() {
 
+
+  const history = useHistory()
+  
   const style = {
     padding: "5em"
   }
 
+
+
   return (
-    <h1>
-        <NavLink exact to="/">
-            Maybelline Catalog Collection
-        </NavLink>
+        <h1 onClick={() => history.push("/")} >
+        Maybelline Catalog Collection
         </h1>
   )
 }

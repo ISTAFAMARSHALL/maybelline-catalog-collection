@@ -26,7 +26,7 @@ function CardDetails({ }) {
 
   return (
 
-    <div> 
+    <div style={{border: "solid", width: "300px" , margin: "20px"}} > 
       <h1 defaultValue="" >{newobj.name}</h1>
       <img defaultValue="" src={newobj.image_link} alt={newobj.name}  ></img>
       <p defaultValue="">Release Date:{newobj.created_at}</p>

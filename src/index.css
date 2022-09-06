@@ -21,7 +21,7 @@ body {
  #navbar {
   font-style: italic;
   color: black;
-  font-size: 150%;
+  font-size: 100%;
   padding: auto;
   margin-bottom: 50px;
  }
@@ -41,4 +41,8 @@ body {
   #about3 {
     font-size: larger;
     margin: 10px;
+  }
+
+  button {
+    width: 150px;
   }

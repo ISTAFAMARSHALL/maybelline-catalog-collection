@@ -56,7 +56,7 @@ function MakeUpComponentContainer() {
                 </Route>
 
                 <Route exact path="/products" > 
-                    <div id='searchbar' ><Search  search={search} setSearch={setSearch} /> <Sort  setSort={setSort} /> </div>
+                    <div id='searchbar'style={{  margin: "50px"  }} ><Search  search={search} setSearch={setSearch} /> <Sort  setSort={setSort} /> </div>
                     <h1>Product List</h1>
                     <div style={{display: "flex" , flexWrap: "wrap"}}>{productCards}</div>
                 </Route>   
