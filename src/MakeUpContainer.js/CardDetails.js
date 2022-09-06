@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-
+import { StyleHTMLAttributes } from 'react'
 
 
 function CardDetails({ }) {
@@ -26,7 +26,7 @@ function CardDetails({ }) {
 
   return (
 
-    <div  >
+    <div> 
       <h1 defaultValue="" >{newobj.name}</h1>
       <img defaultValue="" src={newobj.image_link} alt={newobj.name}  ></img>
       <p defaultValue="">Release Date:{newobj.created_at}</p>
