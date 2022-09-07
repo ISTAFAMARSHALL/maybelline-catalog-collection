@@ -12,8 +12,8 @@ function Footer() {
 
   return (
     <footer style={style}>
-      <div style={{ width: "50%", float: "left"  }}>  Istafa Marshall  </div>
-      <div style={{ width: "50%", float: "right" }}>  Maybelline Catalog Collection  </div>
+      <div id='footer' style={{ width: "50%", float: "left"  }}>  Istafa Marshall  </div>
+      <div id='footer' style={{width: "50%", float: "right" }}>  Maybelline Catalog Collection  </div>
     </footer>)
 }
 

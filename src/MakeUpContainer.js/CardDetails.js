@@ -22,14 +22,17 @@ function CardDetails({ }) {
     setNewobj(data)
   }
 
-//  console.log(newobj.product_colors.map((e) => e.colour_name))
+
+//  const colors = newobj.product_colors.map((e) => { return (
+//   <li>e.colour_name</li>  
+//   )})
 
   return (
 
-    <div style={{border: "solid" , margin: "20px"}} > 
-      <h1 defaultValue="" >{newobj.name}</h1>
+    <div style={{border: "solid" , borderStyle: "groove", margin: "20px"}} > 
+      <h2 defaultValue="" >{newobj.name}</h2>
       <img defaultValue="" src={newobj.image_link} alt={newobj.name}  ></img>
-      <p defaultValue="">Release Date:{newobj.created_at}</p>
+      <p defaultValue="">Date Released:{newobj.created_at}</p>
       <p defaultValue="" >Prodcut Type:{newobj.product_type}</p>
       <p defaultValue=""></p>
       <p defaultValue="">Rating:{newobj.rating}</p>

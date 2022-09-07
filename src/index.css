@@ -4,26 +4,30 @@ body {
   text-align: center;
   margin: 20px;
   vertical-align: middle;
-  /* background-image: url(https://wallpaperaccess.com/full/695765.jpg); */
   background-image: url(https://images8.alphacoders.com/111/1110066.jpg);
   background-size: auto;
-
-  border: 2px solid;
-  text-shadow: white 0px 0px 2px;
+  background-color: black;
+  border: solid;
+  border-style: groove; 
   
-
  }
 
  h1 {
   font-style: italic;
   color: black;
-  font-size: 400%;
+  font-size: 600%;
+ }
+
+ h2 {
+  font-style: italic;
+  color: black;
+  font-size: 300%;
  }
 
  footer {
   font-style: italic;
   color: black;
-  font-size: 175%;
+  font-size: 250%;
  }
 
  #navbar {
@@ -31,14 +35,17 @@ body {
   color: black;
   font-size: 100%;
   padding: auto;
+  margin-top: 50px;
   margin-bottom: 50px;
  }
 
  #searchbar {
   font-style: italic;
   color: black;
-  font-size: 200%;
-  max-height: 0%;  
+  font-size: 200%;  
+  font-weight: bold;
+  
+  
  }
 
  #about2 {
@@ -53,8 +60,26 @@ body {
 
   button {
     font-size: xx-large;
+    color: black;
     width: 200px;
     height: 50px;
     background-color: transparent;
     border: transparent;
+    border-width: thick;
+  }
+
+  #img {
+    width: 600px;
+  }
+
+  input, select, option {
+    background-color: transparent;
+    color: black;
+    border-width: thick;
+    border-style: groove;
+  }
+
+  label {
+    font-size: large;
+    margin: 15px;
   }

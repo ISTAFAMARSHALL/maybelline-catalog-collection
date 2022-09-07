@@ -5,18 +5,11 @@ import { useHistory} from 'react-router-dom'
 
 function Header() {
 
-
   const history = useHistory()
-  
-  const style = {
-    padding: "5em"
-  }
-
-
 
   return (
-        <h1 onClick={() => history.push("/")} >
-          Maybelline Catalog Collection
+        <h1 id='header' onClick={() => history.push("/")} >
+          <div >Maybelline Catalog Collection</div>
         </h1>
   )
 }
