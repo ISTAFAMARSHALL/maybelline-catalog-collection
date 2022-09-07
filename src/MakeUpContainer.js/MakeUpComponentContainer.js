@@ -20,7 +20,7 @@ function MakeUpComponentContainer() {
     .then(r => r.json())
     .then((data) => setproducts(data))
     .catch((error) => alert(error))
-  } , []) 
+  } , [products]) 
 
   const sortCards = products.filter((item) => {
     if (sort === "" )
@@ -56,7 +56,7 @@ function MakeUpComponentContainer() {
                 </Route>
 
                 <Route exact path="/products" > 
-                    <div id='searchbar'style={{  margin: "50px"  }} ><Search  search={search} setSearch={setSearch} /> <Sort  setSort={setSort} /> </div>
+                    <div id='searchbar' ><Search  search={search} setSearch={setSearch} /> <Sort  setSort={setSort} /> </div>
                     <h2>Product List</h2>
                     <div style={{display: "flex" , flexWrap: "wrap"}}>{productCards}</div>
                 </Route>   
