@@ -50,8 +50,9 @@ body {
   color: black;
   font-size: 200%;  
   font-weight: bold;
-  
-  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px
  }
 
  #about2 {
@@ -82,8 +83,10 @@ body {
   input, select, option {
     background-color: transparent;
     color: black;
-    border-width: thick;
+    border-width: thin;
     border-style: groove;
+    width: 400px;
+    text-decoration-color: black;
   }
 
   label {

@@ -1,9 +1,10 @@
 
 import React from 'react'
+import { StyleHTMLAttributes } from 'react'
 
 function Sort({setSort}) {
   return (
-    <div style={{display: "flex", marginLeft:"10px"}}> Choose Product Type:
+    <div style={{display: "flex",  marginLeft:"40px", maxHeight: "50px"  }}> Choose Product Type: 
           <select onChange={(e) => setSort(e.target.value)}>
           <option value="">All</option>
           <option value="bronzer">Bronzer</option>

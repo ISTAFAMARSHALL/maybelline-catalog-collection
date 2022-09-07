@@ -33,7 +33,20 @@ function CardDetails({ }) {
     history.push("/products")
   }
 
+function handleFavs (data) {
+  
+  fetch(`http://localhost:3001/products/${id}`, {
+    method: "PATCH",
+    headers: {
+      "Content-Type" : "application/json"
+    },
+    body: JSON.stringify({
+      price_sign: "true",
+    })
+  })
 
+  history.push("/products")
+}
 
 //  const colors = newobj.product_colors.map((e) => { return (
 //   <li>e.colour_name</li>  
@@ -50,7 +63,7 @@ function CardDetails({ }) {
       <p defaultValue="">Rating: {newobj.rating}</p>
       <div> Availble Colors: {}</div>
       <h3 defaultValue="">Price: {newobj.price}</h3>
-      <button onClick={handleDelete} >Delete</button><button>Favorite</button>
+      <button onClick={handleDelete} >Delete</button><button onClick={handleFavs}>Favorite</button>
 
     </div>
   )
