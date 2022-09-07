@@ -97,3 +97,29 @@ body {
   p {
     font-size: medium;
   }
+
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.star {
+  animation: 2.5s rotate infinite;
+  animation-timing-function: linear;
+}
+
+.star {
+  margin: 50px auto;
+  width: 35px;
+  height: 35px;
+  background: yellow;
+  margin-bottom: auto;
+}
+.star:after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  background: yellow;
+  transform: rotate(45deg);
+}

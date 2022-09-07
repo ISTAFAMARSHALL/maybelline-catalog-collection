@@ -17,7 +17,7 @@ function CardDetails({ }) {
     .then((data) => {
       newArr = data 
       handleData(data)})
-    }, [])
+    }, [id])
 
   function handleData(data) {
     setNewobj(data)

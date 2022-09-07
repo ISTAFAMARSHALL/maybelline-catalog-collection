@@ -10,9 +10,7 @@ function MakeUpComponentContainer() {
   const [products, setproducts] = useState([])
   const [search, setSearch] = useState("")
   const [sort, setSort] = useState("")
-
-
-
+  const [fav, setFav] = useState()
 
 
   useEffect(() => {
