@@ -1,8 +1,10 @@
 # Maybelline Catalog Collection
 
+![Alt Text](https://im4.ezgif.com/tmp/ezgif-4-fa22ece805.gif)
+
 ## Description
 
-My wife collection all types of beauty products for different ocassions. Maybelline Catalog & Collection helps maintain a list of detailed information pretaining to each product.
+My wife collects all types of beauty products for different occasions. Maybelline Catalog & Collection helps maintain a list of detailed information about each product.
 
 
 ### Installation
