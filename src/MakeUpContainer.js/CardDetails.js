@@ -3,9 +3,9 @@ import { useParams, useHistory } from 'react-router-dom'
 
 
 
-function CardDetails({ }) {
+function CardDetails() {
 
- let newArr = []
+//  let newArr = []
  
   const [newobj, setNewobj] = useState([])
   const history = useHistory()
@@ -15,7 +15,7 @@ function CardDetails({ }) {
     fetch(`http://localhost:3001/products/${id}`)
     .then(r => r.json())
     .then((data) => {
-      newArr = data 
+      // newArr = data 
       handleData(data)})
     }, [id])
 
@@ -24,9 +24,6 @@ function CardDetails({ }) {
   }
 
   function handleDelete (data) {
-
-    console.log(id,data.target.value)
-
     fetch(`http://localhost:3001/products/${id}`, {
       method: "DELETE" 
     })
@@ -54,17 +51,16 @@ function handleFavs (data) {
 
   return (
 
-    <div style={{border: "solid" , borderStyle: "groove", margin: "20px"}} > 
+    <div style={{border: "solid" , borderStyle: "groove", margin: "40px"}} > 
       <h2 defaultValue="" >{newobj.name}</h2>
       <img defaultValue="" src={newobj.image_link} alt={newobj.name}  ></img>
       {/* <p defaultValue="">Date Released:{newobj.created_at}</p> */}
       <p defaultValue="" >Prodcut Type: {newobj.product_type}</p>
       <p defaultValue=""></p>
       <p defaultValue="">Rating: {newobj.rating}</p>
-      <div> Availble Colors: {}</div>
+      {/* <div> Availble Colors: {}</div> */}
       <h3 defaultValue="">Price: {newobj.price}</h3>
-      <button onClick={handleDelete} >Delete</button><button onClick={handleFavs}>Favorite</button>
-
+      <button style={{ marginBottom: "40px"}} onClick={handleDelete} >Delete</button>{newobj.price_sign === "true" ? '' : <button onClick={handleFavs}>Favorite</button> }
     </div>
   )
 }

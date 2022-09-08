@@ -1,154 +1,11 @@
 {
   "products": [
     {
-      "id": 414,
-      "brand": "maybelline",
-      "name": "Maybelline Dream Bouncy Blush",
-      "price": "11.99",
-      "price_sign": "true",
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/51eacb9efebbaee39399e65ffe3d9416_ra,w158,h184_pa,w158,h184.png",
-      "product_link": "https://well.ca/products/maybelline-dream-bouncy-blush_50689.html",
-      "website_link": "https://well.ca",
-      "description": "Now, blush has bounce! Freshest flush ever:• New bouncy texture is formulated with silicone elastomers• Lightweight like a powder, yet melts seamlessly into skin like a cream giving you a fresh flush• Dermatologist tested• Allergy tested• Non-comedogenic\n                    \n                    \n                    \n                        \n                        For best results: With your fingertips, blend a small amount of\n blush onto the apples of your cheeks, applying from your cheekbones to \nyour temples. To build colour intensity, apply more blush. \n                    ",
-      "rating": 4.5,
-      "category": "cream",
-      "product_type": "blush",
-      "tag_list": [],
-      "created_at": "2016-10-01T18:34:17.251Z",
-      "updated_at": "2017-12-23T21:08:40.418Z",
-      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/414.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/414/original/open-uri20171223-4-cjvuw0?1514063320",
-      "product_colors": [
-        {
-          "hex_value": "#ecc3d5",
-          "colour_name": "Fresh Pink "
-        },
-        {
-          "hex_value": "#ee9cb1",
-          "colour_name": "Hot Tamale "
-        },
-        {
-          "hex_value": "#ecbaba",
-          "colour_name": "Peach Satin "
-        },
-        {
-          "hex_value": "#c25159",
-          "colour_name": "Plum Wine "
-        }
-      ]
-    },
-    {
-      "id": 398,
-      "brand": "maybelline",
-      "name": "Maybelline Color Sensational Lipliner",
-      "price": "8.29",
-      "price_sign": "false",
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/6607c1b7eb717dfbd3c228b61e4c5148_ra,w158,h184_pa,w158,h184.png",
-      "product_link": "https://well.ca/products/maybelline-color-sensational_14541.html",
-      "website_link": "https://well.ca",
-      "description": "Keep your Maybelline lip color beautiful with matching lip liners that won't smudge, smear or bleed for smooth, defined lips. For best results: Line your lips starting in the center of your upper lip. Work from the \ncenter to outer edges of your lips using small strokes, following the \ncontour of your mouth. Follow the same technique for your bottom lip. To\n extend the wear of your favorite lip color or lip gloss, first fill in \nyour lips completely with lip liner. ",
-      "rating": 3.5,
-      "category": null,
-      "product_type": "lip_liner",
-      "tag_list": [],
-      "created_at": "2016-10-01T18:33:39.513Z",
-      "updated_at": "2017-12-23T21:08:35.034Z",
-      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/398.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/398/original/open-uri20171223-4-11xbwij?1514063314",
-      "product_colors": [
-        {
-          "hex_value": "#A15638",
-          "colour_name": "Nude "
-        },
-        {
-          "hex_value": "#7B4344",
-          "colour_name": "Plum "
-        },
-        {
-          "hex_value": "#854337",
-          "colour_name": "Raisin "
-        },
-        {
-          "hex_value": "#B3705A",
-          "colour_name": "Toast "
-        }
-      ]
-    },
-    {
-      "id": 382,
-      "brand": "maybelline",
-      "name": "Maybelline Dream Smooth Mousse Foundation",
-      "price": "14.79",
-      "price_sign": "false",
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/fb79e7facf701176d4113527c284613f_ra,w158,h184_pa,w158,h184.png",
-      "product_link": "https://well.ca/products/maybelline-dream-smooth-mousse_28944.html",
-      "website_link": "https://well.ca",
-      "description": "Why You'll Love ItUnique cream-whipped foundation provides 100% baby-smooth perfection.\n\nSkin looks and feels hydrated for 14 hours - never rough or dry\nLightweight formula provides perfectly moisturizing coverage\nBlends seamlessly and feels fresh all-day\nOil-free, Fragrance-free, Dermatologist Tested, Allergy Tested, Non-comedogenic – won’t clog pores.\nSafe for sensitive skin\n\n ",
-      "rating": 3.8,
-      "category": "cream",
-      "product_type": "foundation",
-      "tag_list": [],
-      "created_at": "2016-10-01T18:33:13.645Z",
-      "updated_at": "2017-12-23T21:08:34.195Z",
-      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/382.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/382/original/open-uri20171223-4-8avct4?1514063314",
-      "product_colors": []
-    },
-    {
-      "id": 380,
-      "brand": "maybelline",
-      "name": "Maybelline Fit Me Shine-Free Foundation Stick",
-      "price": "10.99",
-      "price_sign": "false",
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/d04e7c2ed65dabe1dca4eed9aa268e95_ra,w158,h184_pa,w158,h184.png",
-      "product_link": "https://well.ca/products/maybelline-fit-me-shine-free_79864.html",
-      "website_link": "https://well.ca",
-      "description": "Get flawless, shine-free skin instantly and on-the-go for tailor-made \nmattifying coverage.  The anti-shine core has ultra-lightweight powders \nbuilt in to the stick foundation to instantly dissolve excess oil. Features: Maybelline's first gel stick foundation with an anti-shine core\nFresh gel foundation blends to a flawless matte finish\nLightweight powders in the anti-shine core instantly dissolve excess oil",
-      "rating": 4.7,
-      "category": "cream",
-      "product_type": "foundation",
-      "tag_list": [],
-      "created_at": "2016-10-01T18:33:11.836Z",
-      "updated_at": "2017-12-23T21:08:33.623Z",
-      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/380.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/380/original/open-uri20171223-4-13lju4x?1514063313",
-      "product_colors": [
-        {
-          "hex_value": "#FFE4C6",
-          "colour_name": "Porcelain (110) "
-        },
-        {
-          "hex_value": "#FFE5C1",
-          "colour_name": "Ivory (115) "
-        },
-        {
-          "hex_value": "#FFD9B9",
-          "colour_name": "Classic Ivory (120) "
-        },
-        {
-          "hex_value": "#FACFA8",
-          "colour_name": "Natural Beige (220) "
-        },
-        {
-          "hex_value": "#D39B70",
-          "colour_name": "Toffee (330) "
-        },
-        {
-          "hex_value": "#CA8B67",
-          "colour_name": "Coconut (355) "
-        }
-      ]
-    },
-    {
       "id": 379,
       "brand": "maybelline",
       "name": "Maybelline Dream Matte Mousse Foundation",
       "price": "14.79",
-      "price_sign": null,
+      "price_sign": "false",
       "currency": null,
       "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/029889b345c76a70e8bb978b73ed1a87_ra,w158,h184_pa,w158,h184.png",
       "product_link": "https://well.ca/products/maybelline-dream-matte-mousse_3747.html",
@@ -194,7 +51,7 @@
       "brand": "maybelline",
       "name": "Maybelline Mineral Power Natural Perfecting Powder Foundation",
       "price": "14.99",
-      "price_sign": null,
+      "price_sign": "true",
       "currency": null,
       "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/c77ad2da76259cfd67a9a9432f635bfb_ra,w158,h184_pa,w158,h184.png",
       "product_link": "https://well.ca/products/maybelline-mineral-power-natural_5900.html?cat=582",
@@ -212,76 +69,6 @@
         {
           "hex_value": "#FFD59E",
           "colour_name": "Classic Ivory "
-        }
-      ]
-    },
-    {
-      "id": 354,
-      "brand": "maybelline",
-      "name": "Maybelline Dream Velvet Foundation",
-      "price": "18.49",
-      "price_sign": null,
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/24517c6c81c92eda31cd32b6327c1298_ra,w158,h184_pa,w158,h184.png",
-      "product_link": "https://well.ca/products/maybelline-dream-velvet-foundation_112738.html?cat=581",
-      "website_link": "https://well.ca",
-      "description": "This Maybelline Dream Velvet Foundation is a refreshing gel-whipped foundation that leaves complexion perfected and smooth with a velvety, soft-matte finish. Skin stays hydrated for 12 hours. Features:Maybelline’s first hydrating matte foundation for 100% velvet-smooth perfectionUnique gel-whipped formulaIdeal for normal to combination skin, medium coverage For best results apply Maybelline Dream Velvet Foundation using Maybelline Dream Blender",
-      "rating": 2.5,
-      "category": "cream",
-      "product_type": "foundation",
-      "tag_list": [],
-      "created_at": "2016-10-01T18:32:21.385Z",
-      "updated_at": "2017-12-23T21:08:36.656Z",
-      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/354.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/354/original/open-uri20171223-4-ouczfl?1514063316",
-      "product_colors": [
-        {
-          "hex_value": "#D39D7B",
-          "colour_name": "Caramel "
-        },
-        {
-          "hex_value": "#F5CAB9",
-          "colour_name": "Classic Ivory "
-        },
-        {
-          "hex_value": "#B37560",
-          "colour_name": "Coconut "
-        },
-        {
-          "hex_value": "#F3BEAC",
-          "colour_name": "Creamy Natural  "
-        },
-        {
-          "hex_value": "#E4A890",
-          "colour_name": "Honey Beige  "
-        },
-        {
-          "hex_value": "#F6D2BC",
-          "colour_name": "Ivory "
-        },
-        {
-          "hex_value": "#E2B598",
-          "colour_name": "Natural Beige "
-        },
-        {
-          "hex_value": "#F1BEAB",
-          "colour_name": "Nude  "
-        },
-        {
-          "hex_value": "#F8E0D4",
-          "colour_name": "Porcelain Ivory "
-        },
-        {
-          "hex_value": "#EEBAA4",
-          "colour_name": "Pure Beige "
-        },
-        {
-          "hex_value": "#EFC2A1",
-          "colour_name": "Sandy Beige  "
-        },
-        {
-          "hex_value": "#FAE2D6",
-          "colour_name": "Warm Porcelain "
         }
       ]
     },
@@ -358,7 +145,7 @@
       "brand": "maybelline",
       "name": "Maybelline Dream Liquid Mousse",
       "price": "14.79",
-      "price_sign": "true",
+      "price_sign": "false",
       "currency": null,
       "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/1ca6a4a442b9aa6b5f3d94da77d8846c_ra,w158,h184_pa,w158,h184.png",
       "product_link": "https://well.ca/products/maybelline-dream-liquid-mousse_12303.html",
@@ -466,7 +253,7 @@
       "brand": "maybelline",
       "name": "Maybelline Fit Me Foundation with SPF",
       "price": "10.99",
-      "price_sign": null,
+      "price_sign": "false",
       "currency": null,
       "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/eccb88d484b8c929fd349b0995a5dba2_ra,w158,h184_pa,w158,h184.png",
       "product_link": "https://well.ca/products/maybelline-fit-me-foundation-with_31187.html",
@@ -504,7 +291,7 @@
       "brand": "maybelline",
       "name": "Maybelline Expert Wear Eye Shadow Quad ",
       "price": "8.99",
-      "price_sign": null,
+      "price_sign": "false",
       "currency": null,
       "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/c924006882e8e313d445a3a5394e4729_ra,w158,h184_pa,w158,h184.png",
       "product_link": "https://well.ca/products/maybelline-expert-wear-eye-shadow_79611.html",
@@ -521,73 +308,11 @@
       "product_colors": []
     },
     {
-      "id": 307,
-      "brand": "maybelline",
-      "name": "Maybelline Eyestudio Color Tattoo Concentrated Crayon",
-      "price": "10.99",
-      "price_sign": null,
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/3f9f894b56e0616e44c5ee01dea45217_ra,w158,h184_pa,w158,h184.png",
-      "product_link": "https://well.ca/products/maybelline-eyestudio-color-tattoo_114535.html",
-      "website_link": "https://well.ca",
-      "description": "Maybelline Eyestudio Color Tattoo Concentrated Crayons give you high-intensity color that looks vibrant all-day long.Features:Smooth, soft creamy finishPlayful intense colorsAll day tattoo tenacity. Playful color intensity. In an easy glide on crayon.",
-      "rating": 3,
-      "category": null,
-      "product_type": "eyeshadow",
-      "tag_list": [],
-      "created_at": "2016-10-01T18:30:58.610Z",
-      "updated_at": "2017-12-23T21:08:18.441Z",
-      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/307.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/307/original/open-uri20171223-4-5xfc8v?1514063298",
-      "product_colors": [
-        {
-          "hex_value": "#515552",
-          "colour_name": "Audacious Asphalt "
-        },
-        {
-          "hex_value": "#D8BFAC",
-          "colour_name": "Barely Beige "
-        },
-        {
-          "hex_value": "#B89A89",
-          "colour_name": "Bronze Truffle "
-        },
-        {
-          "hex_value": "#706A70",
-          "colour_name": "Charcoal Chrome "
-        },
-        {
-          "hex_value": "#5C3B27",
-          "colour_name": "Creamy Chocolate "
-        },
-        {
-          "hex_value": "#DDBA89",
-          "colour_name": "Gold Rush "
-        },
-        {
-          "hex_value": "#8E8C86",
-          "colour_name": "Grey Crystal "
-        },
-        {
-          "hex_value": "#7D6F7D",
-          "colour_name": "Lavish Lavender "
-        },
-        {
-          "hex_value": "#957B83",
-          "colour_name": "Lilac Lust "
-        },
-        {
-          "hex_value": "#E5AEB9",
-          "colour_name": "Pink Parfait "
-        }
-      ]
-    },
-    {
       "id": 295,
       "brand": "maybelline",
       "name": "Maybelline The Nudes Eye Shadow Palette",
       "price": "17.99",
-      "price_sign": null,
+      "price_sign": "true",
       "currency": null,
       "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/201350fd3e173307ade44520dc87d8fb_ra,w158,h184_pa,w158,h184.png",
       "product_link": "https://well.ca/products/maybelline-the-nudes-eye-shadow_95144.html",
@@ -709,7 +434,7 @@
       "brand": "maybelline",
       "name": "Maybelline Eye Studio Color Tattoo 24HR Cream Gel Shadow ",
       "price": "8.99",
-      "price_sign": null,
+      "price_sign": "false",
       "currency": null,
       "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/58d07d24e39142e0c5a178b00b6b31f1_ra,w158,h184_pa,w158,h184.png",
       "product_link": "https://well.ca/products/maybelline-eye-studio-color-tattoo_67270.html",
@@ -1273,7 +998,7 @@
       "brand": "maybelline",
       "name": "Maybelline Color Sensational Vivids Lipcolour",
       "price": "9.99",
-      "price_sign": null,
+      "price_sign": "false",
       "currency": null,
       "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/0d31f41c37fd18dfc02daa1671719378_ra,w158,h184_pa,w158,h184.png",
       "product_link": "https://well.ca/products/maybelline-color-sensational-vivids_66103.html",
@@ -1548,7 +1273,7 @@
       "brand": "maybelline",
       "name": "Maybelline Volum' Express Colossal Mascara",
       "price": "9.79",
-      "price_sign": null,
+      "price_sign": "false",
       "currency": null,
       "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/5d6e0d96f6dedbc3aadd88d9403cb26e_ra,w158,h184_pa,w158,h184.jpeg",
       "product_link": "https://well.ca/products/maybelline-volum-express-colossal_7663.html",
@@ -1660,37 +1385,11 @@
       ]
     },
     {
-      "id": 8,
-      "brand": "maybelline",
-      "name": "Maybelline Lash Stiletto Ultimate Length Mascara",
-      "price": "10.99",
-      "price_sign": null,
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/812b5ae27df9be983052063d52d7ab7a_ra,w158,h184_pa,w158,h184.jpeg",
-      "product_link": "https://well.ca/products/maybelline-lash-stiletto-ultimate_17287.html",
-      "website_link": "https://well.ca",
-      "description": "The only mascara that does for lashes what stilettos do for legs.\n\n    The Grip & Extend brush grasps each lash and coats from every angle\n    Elastic formula stretches lashes for provocative length\n    Pro-Vitamin B-5 formula conditions and smoothes for black-patent shine\n    Contact lens safe and Ophthalmologist tested\n    Waterproof \n\n ",
-      "rating": 4,
-      "category": null,
-      "product_type": "mascara",
-      "tag_list": [],
-      "created_at": "2016-10-01T18:10:55.406Z",
-      "updated_at": "2017-12-23T20:31:47.606Z",
-      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/8.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/008/original/data?1514061107",
-      "product_colors": [
-        {
-          "hex_value": "#0E0F11",
-          "colour_name": "Very Black "
-        }
-      ]
-    },
-    {
       "id": 7,
       "brand": "maybelline",
       "name": "Maybelline Volum'Express the Falsies Mascara",
       "price": "9.79",
-      "price_sign": null,
+      "price_sign": "false",
       "currency": null,
       "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/af1f35f15ee64cc1003f1ccfc6451d71_ra,w158,h184_pa,w158,h184.jpeg",
       "product_link": "https://well.ca/products/maybelline-volumexpress-the-falsies_26311.html",
@@ -1710,6 +1409,32 @@
           "colour_name": "Very Black "
         }
       ]
+    },
+    {
+      "brand": "maybelline",
+      "name": "Maybelline Super Stay Vinyl Ink Liquid Lipstick",
+      "price": "9.48",
+      "price_sign": "true",
+      "currency": "",
+      "image_link": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQwftMdzf3Dsjs1KsDKDvIOvAr4sUvG0S7My7awoTzjopyoxJdDK9_YzD1b-Tec&usqp=CAc",
+      "product_link": "",
+      "website_link": "",
+      "description": "This longwear liquid lipcolor delivers no-budge vinyl color and up to 16 hour wear, featuring our Color Lock formula that defies smudging and transfer; Simply shake and swipe",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ],
+      "id": 400
     }
   ]
 }

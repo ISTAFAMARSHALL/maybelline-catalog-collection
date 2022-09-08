@@ -112,7 +112,7 @@ body {
   margin: 50px auto;
   width: 35px;
   height: 35px;
-  background: yellow;
+  background: goldenrod;
   margin-bottom: auto;
 }
 .star:after {
@@ -120,6 +120,11 @@ body {
   display: block;
   width: 35px;
   height: 35px;
-  background: yellow;
+  background: goldenrod;
   transform: rotate(45deg);
+}
+
+a {
+  color: goldenrod;
+
 }
