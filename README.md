@@ -1,6 +1,6 @@
 # Maybelline Catalog Collection
 
-![Alt Text](https://im4.ezgif.com/tmp/ezgif-4-fa22ece805.gif)
+## ![Alt Text](https://im4.ezgif.com/tmp/ezgif-4-fa22ece805.gif)
 
 ## Description
 
