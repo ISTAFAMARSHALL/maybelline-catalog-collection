@@ -1,6 +1,6 @@
 # Maybelline Catalog Collection
 
-![Phase ! Project](https://im4.ezgif.com/tmp/ezgif-4-fa22ece805.gif)
+![Maybelline Catalog Collection - Flatiron School: Phase 2 Project](https://i.makeagif.com/media/9-08-2022/HpxlOn.gif)
 
 ## Description
 
