@@ -5,17 +5,9 @@ import Search from './Search'
 import Sort from './Sort'
 import CardDetails from './CardDetails';
 
-function MakeUpComponentContainer({setproducts , products , setSearch , search , setSort , sort , setFav , fav}) {
-
-  // const [products, setproducts] = useState([])
-  // const [search, setSearch] = useState("")
-  // const [sort, setSort] = useState("")
-  // const [fav, setFav] = useState()
-
-
-
-
-
+function MakeUpComponentContainer({setproducts , products , setSearch , search , setSort , sort , setFav , fav}) 
+{   
+  
   const sortCards = products.filter((item) => {
     if (sort === "" )
     { return item 
@@ -46,7 +38,7 @@ function MakeUpComponentContainer({setproducts , products , setSearch , search ,
        
             <Switch>
                 <Route exact path="/products/:id" >
-                  <CardDetails products={filteredCards}  />
+                  <CardDetails products={filteredCards} setFav={setFav} fav={fav} setproducts={setproducts} />
                 </Route>
 
                 <Route exact path="/products" > 
