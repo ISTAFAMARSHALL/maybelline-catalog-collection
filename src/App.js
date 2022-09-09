@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import React, {  useState, useEffect } from 'react'
 import Header from './Navigation.js/Header';
 import Navbar from './Navigation.js/Navbar';
 import Footer from './Navigation.js/Footer';
@@ -11,6 +12,20 @@ import Form from './Navigation.js/Form';
 
 
 function App() {
+
+  const [products, setproducts] = useState([])
+  const [search, setSearch] = useState("")
+  const [sort, setSort] = useState("")
+  const [fav, setFav] = useState()
+
+  console.log(products)
+
+  useEffect(() => {
+    fetch("http://localhost:3001/products")
+    .then(r => r.json())
+    .then((data) => setproducts(data))
+    .catch((error) => alert(error))
+  } , []) 
 
   return (
     <div>
@@ -26,11 +41,11 @@ function App() {
               </Route>
 
               <Route exact path="/products/new" >
-                <Form />
+                <Form  setproducts={setproducts} products={products} />
               </Route>
               
               <Route path="/products/" >
-                <MakeUpComponentContainer />
+                <MakeUpComponentContainer setproducts={setproducts} products={products} setSearch={setSearch}  search={search} setSort={setSort} sort={sort} setFav={setFav} fav={fav} />
               </Route>
               
               <Route exact path="/about"  >

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {useHistory} from 'react-router-dom'
 
-function Form() {
+function Form({setproducts, products}) {
   
   const history = useHistory()
   const [name, setName] = useState("")
@@ -11,6 +11,7 @@ function Form() {
   const [ product_type   , setProduct_type] = useState("")
 
   const newProduct ={
+      id: "",
       brand: "maybelline",
       name:name,
       price:price,
@@ -44,6 +45,9 @@ function Form() {
       },
       body: JSON.stringify(newProduct) 
     })
+    .then(r => r.json())
+    .then((data) => setproducts([...products, data]))
+    
     setName("")
     setDescription("")
     setPrice("")
@@ -51,8 +55,6 @@ function Form() {
     setProduct_type("")
     history.push("/products")
   }
-
-  
 
 
   return (

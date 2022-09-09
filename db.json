@@ -1,83 +1,11 @@
 {
   "products": [
     {
-      "id": 379,
-      "brand": "maybelline",
-      "name": "Maybelline Dream Matte Mousse Foundation",
-      "price": "14.79",
-      "price_sign": "false",
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/029889b345c76a70e8bb978b73ed1a87_ra,w158,h184_pa,w158,h184.png",
-      "product_link": "https://well.ca/products/maybelline-dream-matte-mousse_3747.html",
-      "website_link": "https://well.ca",
-      "description": "Maybelline Dream Matte Mouse Foundation is a revolutionary air-soft mousse that provides perfecting coverage for 100% velvet-matte complexion. It's non-comedogenic, fragrance-free, dermatologist-tested, allergy-tested and ideal for normal to oily skin.For best results: Apply smoothly and evenly to your face and blend with your fingertips.﻿\n\n ",
-      "rating": 4.4,
-      "category": "cream",
-      "product_type": "foundation",
-      "tag_list": [],
-      "created_at": "2016-10-01T18:33:10.614Z",
-      "updated_at": "2017-12-23T21:08:33.441Z",
-      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/379.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/379/original/open-uri20171223-4-1koue12?1514063313",
-      "product_colors": [
-        {
-          "hex_value": "#f3d7b3",
-          "colour_name": "Classic Ivory "
-        },
-        {
-          "hex_value": "#dfc5a8",
-          "colour_name": "Light Beige "
-        },
-        {
-          "hex_value": "#edd3ac",
-          "colour_name": "Nude "
-        },
-        {
-          "hex_value": "#f5dfc3",
-          "colour_name": "Porcelain Ivory "
-        },
-        {
-          "hex_value": "#d9bcaf",
-          "colour_name": "Pure Beige "
-        },
-        {
-          "hex_value": "#d8bda8",
-          "colour_name": "Sandy Beige "
-        }
-      ]
-    },
-    {
-      "id": 366,
-      "brand": "maybelline",
-      "name": "Maybelline Mineral Power Natural Perfecting Powder Foundation",
-      "price": "14.99",
-      "price_sign": "true",
-      "currency": null,
-      "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/c77ad2da76259cfd67a9a9432f635bfb_ra,w158,h184_pa,w158,h184.png",
-      "product_link": "https://well.ca/products/maybelline-mineral-power-natural_5900.html?cat=582",
-      "website_link": "https://well.ca",
-      "description": "Why You'll Love ItMineral Power Powder Foundation with micro-minerals provides a more natural, healthier, luminous look.\nDiscover the natural power of micro-minerals:\n100% natural mica creates a more natural luminosity Complete, yet refined coverage Provides buildable, even coverage Preservative-free, talc-free, oil-free, fragrance-free Medium to Full Coverage",
-      "rating": 3.9,
-      "category": "mineral",
-      "product_type": "foundation",
-      "tag_list": [],
-      "created_at": "2016-10-01T18:32:42.283Z",
-      "updated_at": "2017-12-23T21:08:29.561Z",
-      "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/366.json",
-      "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/366/original/open-uri20171223-4-q5cytj?1514063309",
-      "product_colors": [
-        {
-          "hex_value": "#FFD59E",
-          "colour_name": "Classic Ivory "
-        }
-      ]
-    },
-    {
       "id": 353,
       "brand": "maybelline",
       "name": "Maybelline Superstay Better Skin Foundation ",
       "price": "14.99",
-      "price_sign": "false",
+      "price_sign": "true",
       "currency": null,
       "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/c7d967ef502ecd79ab7ab466c4952d82_ra,w158,h184_pa,w158,h184.png",
       "product_link": "https://well.ca/products/maybelline-superstay-better-skin_112548.html",
@@ -1435,6 +1363,344 @@
         }
       ],
       "id": 400
+    },
+    {
+      "id": 402,
+      "brand": "maybelline",
+      "name": "test",
+      "price": "test",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "test",
+      "product_link": "",
+      "website_link": "",
+      "description": "test",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
+    },
+    {
+      "id": 403,
+      "brand": "maybelline",
+      "name": "test",
+      "price": "test",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "test",
+      "product_link": "",
+      "website_link": "",
+      "description": "test",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "brand": "maybelline",
+      "name": "test",
+      "price": "test",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "test",
+      "product_link": "",
+      "website_link": "",
+      "description": "test",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
+    },
+    {
+      "id": 405,
+      "brand": "maybelline",
+      "name": "test",
+      "price": "test",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "test",
+      "product_link": "",
+      "website_link": "",
+      "description": "test",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
+    },
+    {
+      "id": 406,
+      "brand": "maybelline",
+      "name": "test",
+      "price": "test",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "test",
+      "product_link": "",
+      "website_link": "",
+      "description": "test",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "brand": "maybelline",
+      "name": "test",
+      "price": "test",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "test",
+      "product_link": "",
+      "website_link": "",
+      "description": "test",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
+    },
+    {
+      "id": 408,
+      "brand": "maybelline",
+      "name": "test",
+      "price": "test",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "test",
+      "product_link": "",
+      "website_link": "",
+      "description": "test",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
+    },
+    {
+      "id": 409,
+      "brand": "maybelline",
+      "name": "test",
+      "price": "test",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "test",
+      "product_link": "",
+      "website_link": "",
+      "description": "test",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
+    },
+    {
+      "id": 410,
+      "brand": "maybelline",
+      "name": "test",
+      "price": "test",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "test",
+      "product_link": "",
+      "website_link": "",
+      "description": "test",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
+    },
+    {
+      "id": 411,
+      "brand": "maybelline",
+      "name": "test",
+      "price": "9.48",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQwftMdzf3Dsjs1KsDKDvIOvAr4sUvG0S7My7awoTzjopyoxJdDK9_YzD1b-Tec&usqp=CAc",
+      "product_link": "",
+      "website_link": "",
+      "description": "This longwear liquid lipcolor delivers no-budge vinyl color and up to 16 hour wear, featuring our Color Lock formula that defies smudging and transfer; Simply shake and swipe",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
+    },
+    {
+      "id": 412,
+      "brand": "maybelline",
+      "name": "Maybelline Super Stay Vinyl Ink Liquid Lipstick",
+      "price": "9.48",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQwftMdzf3Dsjs1KsDKDvIOvAr4sUvG0S7My7awoTzjopyoxJdDK9_YzD1b-Tec&usqp=CAc",
+      "product_link": "",
+      "website_link": "",
+      "description": "This longwear liquid lipcolor delivers no-budge vinyl color and up to 16 hour wear, featuring our Color Lock formula that defies smudging and transfer; Simply shake and swipe",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
+    },
+    {
+      "id": 413,
+      "brand": "maybelline",
+      "name": "test",
+      "price": "test",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "test",
+      "product_link": "",
+      "website_link": "",
+      "description": "test",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
+    },
+    {
+      "id": 414,
+      "brand": "maybelline",
+      "name": "test",
+      "price": "test",
+      "price_sign": "",
+      "currency": "",
+      "image_link": "test",
+      "product_link": "",
+      "website_link": "",
+      "description": "test",
+      "rating": "",
+      "category": "",
+      "product_type": "",
+      "tag_list": [],
+      "created_at": "",
+      "updated_at": "",
+      "product_api_url": "",
+      "api_featured_image": "",
+      "product_colors": [
+        {
+          "hex_value": "",
+          "colour_name": ""
+        }
+      ]
     }
   ]
 }

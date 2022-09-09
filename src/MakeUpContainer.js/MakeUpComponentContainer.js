@@ -1,24 +1,20 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { Route, Switch } from 'react-router-dom'
 import MakeupCards from './MakeupCards'
 import Search from './Search'
 import Sort from './Sort'
 import CardDetails from './CardDetails';
 
-function MakeUpComponentContainer() {
+function MakeUpComponentContainer({setproducts , products , setSearch , search , setSort , sort , setFav , fav}) {
 
-  const [products, setproducts] = useState([])
-  const [search, setSearch] = useState("")
-  const [sort, setSort] = useState("")
-  const [fav, setFav] = useState()
+  // const [products, setproducts] = useState([])
+  // const [search, setSearch] = useState("")
+  // const [sort, setSort] = useState("")
+  // const [fav, setFav] = useState()
 
 
-  useEffect(() => {
-    fetch("http://localhost:3001/products")
-    .then(r => r.json())
-    .then((data) => setproducts(data))
-    .catch((error) => alert(error))
-  } , [products]) 
+
+
 
   const sortCards = products.filter((item) => {
     if (sort === "" )
