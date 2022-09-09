@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { useParams, useHistory } from 'react-router-dom'
 
 
 
-function CardDetails({products,fav, setFav}) {
+function CardDetails({setproducts, products,fav, setFav}) {
 
 
 
 //  let newArr = []
  
-  const [newobj, setNewobj] = useState([]);
+  // const [newobj, setNewobj] = useState([]);
   const history = useHistory();
 
   const { id } = useParams();
@@ -18,9 +18,11 @@ function CardDetails({products,fav, setFav}) {
   const detailedCard = products.filter((newobj) => {
     if (newobj.id === parseInt(id)) {
       return newobj
-    }})
+    }});
 
-    console.log(detailedCard[0])
+  const colors = detailedCard[0].product_colors.map((e) => { return (
+      <li key={e.colour_name} >{e.colour_name}</li>  
+      )});
 
   // useEffect(() => {
   //   fetch(`http://localhost:3001/products/${id}`)
@@ -30,18 +32,31 @@ function CardDetails({products,fav, setFav}) {
   //     handleData(data)})
   //   }, [])
 
-  function handleData(data) {
-    setNewobj(data)
-  }
+  // function handleData(data) {
+  //   setNewobj(data)
+  // }
 
-  function handleDelete (data) {
+  function handleDelete () {
+
+    const deletedItemArr = products.filter((e) => e.id !== parseInt(id));
+
     fetch(`http://localhost:3001/products/${id}`, {
       method: "DELETE" 
     })
-    history.push("/products")
+
+    setproducts(deletedItemArr);
+
+    history.push("/products");
+
   }
 
-function handleFavs (data) {
+function handleFavs () {
+
+  const favItemArr = products.map((e) => {
+    if (e.id === parseInt(id)) {
+       return {...e , price_sign: "true"}
+    } else return e 
+  })
   
   fetch(`http://localhost:3001/products/${id}`, {
     method: "PATCH",
@@ -53,12 +68,12 @@ function handleFavs (data) {
     })
   })
 
-  history.push("/products")
+  setproducts(favItemArr);
+
+ 
 }
 
-//  const colors = newobj.product_colors.map((e) => { return (
-//   <li>e.colour_name</li>  
-//   )})
+
 
   return (
 
@@ -69,7 +84,7 @@ function handleFavs (data) {
       <p defaultValue="" >Prodcut Type: {detailedCard[0].product_type}</p>
       <p defaultValue=""></p>
       <p defaultValue="">Rating: {detailedCard[0].rating}</p>
-      {/* <div> Availble Colors: {}</div> */}
+      <div>  {detailedCard[0].product_colors === true ? 'Availble Colors:' : ""} {colors}</div>
       <h3 defaultValue="">Price: {detailedCard[0].price}</h3>
       <button style={{ marginBottom: "40px"}} onClick={handleDelete} >Delete</button>{detailedCard[0].price_sign === "true" ? '' : <button onClick={handleFavs}>Favorite</button> }
     </div>

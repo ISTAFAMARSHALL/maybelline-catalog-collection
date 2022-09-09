@@ -26,7 +26,7 @@ function MakeUpComponentContainer({setproducts , products , setSearch , search ,
   const productCards = filteredCards.map((item) => {
     return (
       <div key={item.id} >
-          <MakeupCards   item={item}  />
+          <MakeupCards   item={item} setproducts={setproducts} products={products} />
       </div>
     )})
 

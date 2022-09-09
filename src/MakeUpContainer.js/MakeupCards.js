@@ -4,12 +4,20 @@ import { useHistory } from 'react-router-dom'
 
 
 
-function MakeupCards({item}) {
+function MakeupCards({setproducts, products, item}) {
 
   const history = useHistory()
 
-  function handleFavs (data) {
+  function handleFavs () {
+
+    const favItemArr = products.map((e) => {
+      if (e.id === parseInt(item.id)) {
+         return {...e , price_sign: "false"}
+      } else return e 
+    })
   
+    console.log(favItemArr)
+    
     fetch(`http://localhost:3001/products/${item.id}`, {
       method: "PATCH",
       headers: {
@@ -19,8 +27,10 @@ function MakeupCards({item}) {
         price_sign: "false",
       })
     })
-
-    history.push("/products")
+  
+    setproducts(favItemArr);
+  
+   
   }
 
   return (
