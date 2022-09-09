@@ -17,9 +17,9 @@ function CardDetails({setproducts, products})
   //   }});
 
   const colors = detailedCard[0].product_colors.map((e) => { return (
-      <>
+    
       <li key={e.colour_name} >{e.colour_name}</li>  
-      </>
+
 
       )});
 
