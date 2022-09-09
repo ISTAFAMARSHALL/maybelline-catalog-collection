@@ -36,7 +36,7 @@ function MakeupCards({setproducts, products, item})
         <Link to={`/products/${item.id}`}><button>Details</button></Link>
         
         <div id='star' className={ item.price_sign === "true" ?  "star" : ""} onClick={handleFavs} /> <br></br>
-        { item.price_sign === "true" ? <a href='text'> Click star to remove from Favorites </a> : ""}  
+        { item.price_sign === "true" ? <a id='star' href='text'> Click star to remove from Favorites </a> : ""}  
          
       </div>
   )

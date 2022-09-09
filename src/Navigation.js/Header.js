@@ -9,7 +9,7 @@ function Header() {
 
   return (
         <h1 id='header' onClick={() => history.push("/")} >
-          <div >Maybelline Catalog Collection</div>
+          <div id='header' >Maybelline Catalog Collection</div>
         </h1>
   )
 }

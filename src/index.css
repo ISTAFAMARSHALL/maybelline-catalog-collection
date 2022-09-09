@@ -71,10 +71,20 @@ body {
     width: 200px;
     height: 50px;
     background-color: transparent;
-    /* border: transparent; */
     border-width: thin;
     border-style: groove;
   }
+
+  button:hover, #button:hover {
+    color: red;
+    border-width: thick;
+    border-style: groove;
+  }
+
+  #header:hover {
+    color: red;
+  }
+
 
   #img {
     width: 600px;
@@ -115,6 +125,13 @@ body {
   background: goldenrod;
   margin-bottom: auto;
 }
+
+.star:hover {
+border-style: double;
+
+
+}
+
 .star:after {
   content: "";
   display: block;
@@ -125,6 +142,7 @@ body {
 }
 
 a {
+
   color: goldenrod;
 
 }

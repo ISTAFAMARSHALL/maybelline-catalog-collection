@@ -71,7 +71,7 @@ function Form({setproducts, products}) {
         <input onChange={(e) => setProduct_type(e.target.value)} type="text" name="product_type" id="product_type" value={product_type} required placeholder='Enter Product Type Here'/> <br></br>
         {/* <label htmlFor='image'>Image Url:</label> */}
         <input onChange={(e) => setImage(e.target.value)} type="text" name="image" id="image" value={image} required placeholder='Enter Image Url: Here'/> <br></br>
-        <input type="submit" value="Add New Product"/>
+        <input id="button" type="submit" value="Add New Product"/>
       </form>
     </div>
   )
