@@ -120,23 +120,22 @@ body {
 
 .star {
   margin: 50px auto;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   background: goldenrod;
   margin-bottom: auto;
 }
 
 .star:hover {
 border-style: double;
-
-
 }
+
 
 .star:after {
   content: "";
   display: block;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   background: goldenrod;
   transform: rotate(45deg);
 }

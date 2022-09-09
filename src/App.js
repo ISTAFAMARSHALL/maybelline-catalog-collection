@@ -14,9 +14,9 @@ import Form from './Navigation.js/Form';
 function App() {
 
   const [products, setproducts] = useState([]);
+
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState("");
-  const [fav, setFav] = useState();
 
   useEffect(() => {
     fetch("http://localhost:3001/products")
@@ -43,7 +43,7 @@ function App() {
               </Route>
               
               <Route path="/products/" >
-                <MakeUpComponentContainer setproducts={setproducts} products={products} setSearch={setSearch}  search={search} setSort={setSort} sort={sort} setFav={setFav} fav={fav} />
+                <MakeUpComponentContainer setproducts={setproducts} products={products} setSearch={setSearch}  search={search} setSort={setSort} sort={sort}  />
               </Route>
               
               <Route exact path="/about"  >

@@ -3,13 +3,12 @@ import { useParams, useHistory } from 'react-router-dom'
 
 
 
-function CardDetails({setproducts, products,fav, setFav}) 
+function CardDetails({setproducts, products}) 
 {
   const history = useHistory();
 
   const { id } = useParams();
-
-
+  
   const detailedCard = products.filter((newobj) => newobj.id === parseInt(id));
 
   // const detailedCard = products.filter((newobj) => {
@@ -18,9 +17,13 @@ function CardDetails({setproducts, products,fav, setFav})
   //   }});
 
   const colors = detailedCard[0].product_colors.map((e) => { return (
+      <>
       <li key={e.colour_name} >{e.colour_name}</li>  
+      </>
+
       )});
 
+ 
   function handleDelete () 
   {
     const deletedItemArr = products.filter((e) => e.id !== parseInt(id));
@@ -57,21 +60,18 @@ function handleFavs () {
   setproducts(favItemArr);
 
  
-}
-
-
+};
 
   return (
 
     <div style={{border: "solid" , borderStyle: "groove", margin: "40px"}} > 
-      <h2 defaultValue="" >{detailedCard[0].name}</h2>
+       <h2 defaultValue="" >{detailedCard[0].name}</h2>
       <img defaultValue="" src={detailedCard[0].image_link} alt={detailedCard[0].name}  ></img>
-      {/* <p defaultValue="">Date Released:{newobj.created_at}</p> */}
-      <p defaultValue="" >Prodcut Type: {detailedCard[0].product_type}</p>
+      <p defaultValue="" >{detailedCard[0].product_type}</p>
       <p defaultValue=""></p>
       <p defaultValue="">Rating: {detailedCard[0].rating}</p>
-      <div>  {detailedCard[0].product_colors === true ? 'Availble Colors:' : ""} {colors}</div>
-      <h3 defaultValue="">Price: {detailedCard[0].price}</h3>
+      <div>{colors}</div>
+      <h3 >Price: {detailedCard[0].price}</h3>
       <button style={{ marginBottom: "40px"}} onClick={handleDelete} >Delete</button>{detailedCard[0].price_sign === "true" ? '' : <button onClick={handleFavs}>Favorite</button> }
     </div>
   )
