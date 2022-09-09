@@ -3,41 +3,26 @@ import { useParams, useHistory } from 'react-router-dom'
 
 
 
-function CardDetails({setproducts, products,fav, setFav}) {
-
-
-
-//  let newArr = []
- 
-  // const [newobj, setNewobj] = useState([]);
+function CardDetails({setproducts, products,fav, setFav}) 
+{
   const history = useHistory();
 
   const { id } = useParams();
 
 
-  const detailedCard = products.filter((newobj) => {
-    if (newobj.id === parseInt(id)) {
-      return newobj
-    }});
+  const detailedCard = products.filter((newobj) => newobj.id === parseInt(id));
+
+  // const detailedCard = products.filter((newobj) => {
+  //   if (newobj.id === parseInt(id)) {
+  //     return newobj
+  //   }});
 
   const colors = detailedCard[0].product_colors.map((e) => { return (
       <li key={e.colour_name} >{e.colour_name}</li>  
       )});
 
-  // useEffect(() => {
-  //   fetch(`http://localhost:3001/products/${id}`)
-  //   .then(r => r.json())
-  //   .then((data) => {
-  //     // newArr = data 
-  //     handleData(data)})
-  //   }, [])
-
-  // function handleData(data) {
-  //   setNewobj(data)
-  // }
-
-  function handleDelete () {
-
+  function handleDelete () 
+  {
     const deletedItemArr = products.filter((e) => e.id !== parseInt(id));
 
     fetch(`http://localhost:3001/products/${id}`, {
@@ -49,6 +34,7 @@ function CardDetails({setproducts, products,fav, setFav}) {
     history.push("/products");
 
   }
+
 
 function handleFavs () {
 

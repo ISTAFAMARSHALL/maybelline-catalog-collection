@@ -1,22 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { useHistory } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-
-
-function MakeupCards({setproducts, products, item}) {
-
-  const history = useHistory()
-
+function MakeupCards({setproducts, products, item}) 
+{
   function handleFavs () {
 
     const favItemArr = products.map((e) => {
       if (e.id === parseInt(item.id)) {
          return {...e , price_sign: "false"}
       } else return e 
-    })
-  
-    console.log(favItemArr)
+    });
     
     fetch(`http://localhost:3001/products/${item.id}`, {
       method: "PATCH",
@@ -43,7 +36,7 @@ function MakeupCards({setproducts, products, item}) {
         <Link to={`/products/${item.id}`}><button>Details</button></Link>
         
         <div id='star' className={ item.price_sign === "true" ?  "star" : ""} onClick={handleFavs} /> <br></br>
-        { item.price_sign === "true" ? <a> Click star to remove from Favorites </a> : ""}  
+        { item.price_sign === "true" ? <a href='text'> Click star to remove from Favorites </a> : ""}  
          
       </div>
   )

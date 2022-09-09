@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import { Route, Switch } from 'react-router-dom'
 import MakeupCards from './MakeupCards'
 import Search from './Search'
@@ -7,14 +6,14 @@ import CardDetails from './CardDetails';
 
 function MakeUpComponentContainer({setproducts , products , setSearch , search , setSort , sort , setFav , fav}) 
 {   
-  
+
   const sortCards = products.filter((item) => {
     if (sort === "" )
     { return item 
     }
     return item.product_type === sort
 
-  })
+  });
 
   const filteredCards = sortCards.filter((item) => {
     if (search === "") {
