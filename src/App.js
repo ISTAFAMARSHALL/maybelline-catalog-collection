@@ -1,14 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
 import React, {  useState, useEffect } from 'react';
-import Header from './Navigation.js/Header';
-import Navbar from './Navigation.js/Navbar';
-import Footer from './Navigation.js/Footer';
+import Header from './Navigation/Header';
+import Navbar from './Navigation/Navbar';
+import Footer from './Navigation/Footer';
 import MakeUpComponentContainer from './MakeUpContainer/MakeUpComponentContainer';
 import {Switch, Route} from 'react-router-dom'
-import Home from './Navigation.js/Home';
-import About from './Navigation.js/About';
-import Form from './Navigation.js/Form';
+import Home from './Navigation/Home';
+import About from './Navigation/About';
+import Form from './Navigation/Form';
 
 
 function App() {
