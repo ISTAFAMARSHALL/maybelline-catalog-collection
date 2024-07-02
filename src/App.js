@@ -19,7 +19,7 @@ function App() {
   const [sort, setSort] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3001/products")
+    fetch("/api/http://localhost:3001/products")
     .then(r => r.json())
     .then((data) => setproducts(data))
     .catch((error) => alert(error))
