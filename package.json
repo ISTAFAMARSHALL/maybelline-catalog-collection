@@ -14,13 +14,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "postinstall": "npm install -g json-server",
     "start": "concurrently \"npm run server\" \"npm run react-start\"",
     "react-start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": "json-server --watch db.json --port 3001"
+    "server": "json-server --watch db.json --port 3001",
+    "postinstall": "npm install json-server"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +39,8 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "force": "^0.0.3",
+    "json-server": "^1.0.0-beta.1"
   }
 }
