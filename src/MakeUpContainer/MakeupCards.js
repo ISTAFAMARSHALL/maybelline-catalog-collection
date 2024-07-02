@@ -11,7 +11,7 @@ function MakeupCards({setproducts, products, item})
       } else return e 
     });
     
-    fetch(`http://localhost:3001/products/${item.id}`, {
+    fetch(`api/http://localhost:3001/products/${item.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type" : "application/json"
