@@ -3,6 +3,7 @@ import MakeupCards from './MakeupCards'
 import Search from './Search'
 import Sort from './Sort'
 import CardDetails from './CardDetails';
+import React from 'react';
 
 function MakeUpComponentContainer({setproducts , products , setSearch , search , setSort , sort , setFav , fav}) 
 {   
