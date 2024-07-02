@@ -4,7 +4,7 @@ import React, {  useState, useEffect } from 'react';
 import Header from './Navigation.js/Header';
 import Navbar from './Navigation.js/Navbar';
 import Footer from './Navigation.js/Footer';
-import MakeUpComponentContainer from './MakeUpContainer.js/MakeUpComponentContainer';
+import MakeUpComponentContainer from './MakeUpContainer/MakeUpComponentContainer';
 import {Switch, Route} from 'react-router-dom'
 import Home from './Navigation.js/Home';
 import About from './Navigation.js/About';
