@@ -20,7 +20,8 @@ This project was bootstrapped with [Create React App]
 3. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 4. open a new terminal window, and run:
-    a. `npm run server`
+    a. `npm install -g json-server`
+    b. `npm run server`
 
 ### Usage
 
